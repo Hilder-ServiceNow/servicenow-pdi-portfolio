@@ -1,0 +1,805 @@
+<?xml version="1.0" encoding="UTF-8"?><unload unload_date="2026-10-02 04:57:10">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="Global">global</application>
+<application_name>Global</application_name>
+<application_scope>global</application_scope>
+<application_version/>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description/>
+<inserted/>
+<name>Equipment_Request_Application</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>e603f7e773e387d075f5fb125ab8b7e2</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>Hilder.Ondigo</sys_created_by>
+<sys_created_on>2026-10-02 04:56:54</sys_created_on>
+<sys_id>7c56c4f7736787d075f5fb125ab8b7b4</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>Hilder.Ondigo</sys_updated_by>
+<sys_updated_on>2026-10-02 04:56:54</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_u_equipment_request_u_status</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="u_status" table="u_equipment_request"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice&gt;1&lt;/choice&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;Status&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;u_status&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;internal_type display_value="Choice"&gt;choice&lt;/internal_type&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;40&lt;/max_length&gt;&lt;name&gt;u_equipment_request&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_only_option/&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;Hilder.Ondigo&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-10-02 03:48:42&lt;/sys_created_on&gt;&lt;sys_id&gt;6926f7e773e387d075f5fb125ab8b7fc&lt;/sys_id&gt;&lt;sys_name&gt;Status&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_u_equipment_request_u_status&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;Hilder.Ondigo&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-10-02 03:48:42&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-566746746</payload_hash>
+<remote_update_set display_value="Equipment_Request_Application">7c56c4f7736787d075f5fb125ab8b7b4</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>Hilder.Ondigo</sys_created_by>
+<sys_created_on>2026-10-02 04:56:55</sys_created_on>
+<sys_id>0956c4f7736787d075f5fb125ab8b7b8</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a0faba88b70000001</sys_recorded_at>
+<sys_updated_by>Hilder.Ondigo</sys_updated_by>
+<sys_updated_on>2026-10-02 04:56:55</sys_updated_on>
+<table>u_equipment_request</table>
+<target_name>u_equipment_request.u_status</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>4ab6ff6f32e387d085a8fe9cb434c9c1</update_guid>
+<update_guid_history>4ab6ff6f32e387d085a8fe9cb434c9c1:-566746746</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_u_equipment_request_u_status_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="u_status" label="Status" language="en" table="u_equipment_request"><sys_documentation action="INSERT_OR_UPDATE"><element>u_status</element><help/><hint/><label>Status</label><language>en</language><name>u_equipment_request</name><plural>Status</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>Hilder.Ondigo</sys_created_by><sys_created_on>2026-10-02 03:49:26</sys_created_on><sys_id>a4e677af73e387d075f5fb125ab8b70f</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Status</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_documentation_u_equipment_request_u_status_en</sys_update_name><sys_updated_by>Hilder.Ondigo</sys_updated_by><sys_updated_on>2026-10-02 03:49:26</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>-1468345222</payload_hash>
+<remote_update_set display_value="Equipment_Request_Application">7c56c4f7736787d075f5fb125ab8b7b4</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>Hilder.Ondigo</sys_created_by>
+<sys_created_on>2026-10-02 04:56:56</sys_created_on>
+<sys_id>0d56c4f7736787d075f5fb125ab8b7b9</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a0fabb5fd90000001</sys_recorded_at>
+<sys_updated_by>Hilder.Ondigo</sys_updated_by>
+<sys_updated_on>2026-10-02 04:56:56</sys_updated_on>
+<table>u_equipment_request</table>
+<target_name>Equipment Request.Status</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>63e6b7af19e387d03c536838e0b348a6</update_guid>
+<update_guid_history>63e6b7af19e387d03c536838e0b348a6:-1468345222</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_7fc6b3af73e387d075f5fb125ab8b7aa</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><applies_to/><condition/><controlled_by_refs/><decision_type>allow</decision_type><description>Default access control on u_equipment_request</description><local_or_existing>Existing</local_or_existing><name>u_equipment_request</name><operation display_value="read">read</operation><script/><security_attribute/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>Hilder.Ondigo</sys_created_by><sys_created_on>2026-10-02 03:49:07</sys_created_on><sys_id>7fc6b3af73e387d075f5fb125ab8b7aa</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_equipment_request</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_security_acl_7fc6b3af73e387d075f5fb125ab8b7aa</sys_update_name><sys_updated_by>Hilder.Ondigo</sys_updated_by><sys_updated_on>2026-10-02 03:49:07</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+<payload_hash>-387848581</payload_hash>
+<remote_update_set display_value="Equipment_Request_Application">7c56c4f7736787d075f5fb125ab8b7b4</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>Hilder.Ondigo</sys_created_by>
+<sys_created_on>2026-10-02 04:56:56</sys_created_on>
+<sys_id>1156c4f7736787d075f5fb125ab8b7bb</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a0fabae8a90000001</sys_recorded_at>
+<sys_updated_by>Hilder.Ondigo</sys_updated_by>
+<sys_updated_on>2026-10-02 04:56:56</sys_updated_on>
+<table>u_equipment_request</table>
+<target_name>u_equipment_request</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid>80d6b3af1be387d022ebbe9acfa661af</update_guid>
+<update_guid_history>80d6b3af1be387d022ebbe9acfa661af:-387848581</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_role_4fc673af73e387d075f5fb125ab8b7c9</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>Hilder.Ondigo</sys_created_by><sys_created_on>2026-10-02 03:49:04</sys_created_on><sys_id>4fc673af73e387d075f5fb125ab8b7c9</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_equipment_request.u_equipment_request_user</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_security_acl display_value="u_equipment_request">f8c633af73e387d075f5fb125ab8b756</sys_security_acl><sys_update_name>sys_security_acl_role_4fc673af73e387d075f5fb125ab8b7c9</sys_update_name><sys_updated_by>Hilder.Ondigo</sys_updated_by><sys_updated_on>2026-10-02 03:49:04</sys_updated_on><sys_user_role display_value="u_equipment_request_user" name="u_equipment_request_user">2aa6bfeb73e387d075f5fb125ab8b76e</sys_user_role></sys_security_acl_role></record_update>]]></payload>
+<payload_hash>-1391557054</payload_hash>
+<remote_update_set display_value="Equipment_Request_Application">7c56c4f7736787d075f5fb125ab8b7b4</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>Hilder.Ondigo</sys_created_by>
+<sys_created_on>2026-10-02 04:56:57</sys_created_on>
+<sys_id>1556c8bb736787d075f5fb125ab8b70a</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a0fabae4570000001</sys_recorded_at>
+<sys_updated_by>Hilder.Ondigo</sys_updated_by>
+<sys_updated_on>2026-10-02 04:56:57</sys_updated_on>
+<table>u_equipment_request</table>
+<target_name>u_equipment_request.u_equipment_request_user</target_name>
+<type>Access Roles</type>
+<update_domain>global</update_domain>
+<update_guid>b7c6b3af2be387d095252d232d6a7da8</update_guid>
+<update_guid_history>b7c6b3af2be387d095252d232d6a7da8:-1391557054</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_module_abb633af73e387d075f5fb125ab8b74f</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module"><sys_ui_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Equipment Request">8bb633af73e387d075f5fb125ab8b73d</application><filter/><name>Equipment Requests</name><order/><path/><path_relative_to_root>false</path_relative_to_root><roles>u_equipment_request_user</roles><sys_class_name>sys_ui_module</sys_class_name><sys_created_by>Hilder.Ondigo</sys_created_by><sys_created_on>2026-10-02 03:48:49</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>abb633af73e387d075f5fb125ab8b74f</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Equipment Requests</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_ui_module_abb633af73e387d075f5fb125ab8b74f</sys_update_name><sys_updated_by>Hilder.Ondigo</sys_updated_by><sys_updated_on>2026-10-02 03:48:49</sys_updated_on><table>u_equipment_request</table><uncancelable>false</uncancelable><view_name/></sys_ui_module></record_update>]]></payload>
+<payload_hash>-2060000062</payload_hash>
+<remote_update_set display_value="Equipment_Request_Application">7c56c4f7736787d075f5fb125ab8b7b4</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>Hilder.Ondigo</sys_created_by>
+<sys_created_on>2026-10-02 04:56:57</sys_created_on>
+<sys_id>2956c8bb736787d075f5fb125ab8b70b</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a0fabaa2dd0000001</sys_recorded_at>
+<sys_updated_by>Hilder.Ondigo</sys_updated_by>
+<sys_updated_on>2026-10-02 04:56:57</sys_updated_on>
+<table>u_equipment_request</table>
+<target_name>Equipment Requests</target_name>
+<type>Module</type>
+<update_domain>global</update_domain>
+<update_guid>23b633afbae387d01b099fd82d223b54</update_guid>
+<update_guid_history>23b633afbae387d01b099fd82d223b54:-2060000062</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_app_module_7ab6ff6f73e387d075f5fb125ab8b7ea</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Equipment Request">2ab6ff6f73e387d075f5fb125ab8b7e2</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>Equipment Requests</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>u_equipment_request</name><order/><override_menu_roles>false</override_menu_roles><query/><report/><require_confirmation>true</require_confirmation><roles>u_equipment_request_user</roles><route/><screen/><sys_class_name>sys_app_module</sys_class_name><sys_created_by>Hilder.Ondigo</sys_created_by><sys_created_on>2026-10-02 03:48:47</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>7ab6ff6f73e387d075f5fb125ab8b7ea</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Equipment Requests</sys_name><sys_overrides/><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_app_module_7ab6ff6f73e387d075f5fb125ab8b7ea</sys_update_name><sys_updated_by>Hilder.Ondigo</sys_updated_by><sys_updated_on>2026-10-02 03:48:47</sys_updated_on><timeline_page/><title>Equipment Requests</title><uncancelable>false</uncancelable><ux_list/><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+<payload_hash>1280619060</payload_hash>
+<remote_update_set display_value="Equipment_Request_Application">7c56c4f7736787d075f5fb125ab8b7b4</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>Hilder.Ondigo</sys_created_by>
+<sys_created_on>2026-10-02 04:56:54</sys_created_on>
+<sys_id>3056c4f7736787d075f5fb125ab8b7b6</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a0faba98970000001</sys_recorded_at>
+<sys_updated_by>Hilder.Ondigo</sys_updated_by>
+<sys_updated_on>2026-10-02 04:56:54</sys_updated_on>
+<table>u_equipment_request</table>
+<target_name>Equipment Requests</target_name>
+<type>Module</type>
+<update_domain>global</update_domain>
+<update_guid>07b633af1ee387d0b0a6277d38ce4e3b</update_guid>
+<update_guid_history>07b633af1ee387d0b0a6277d38ce4e3b:1280619060</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_u_equipment_request_null</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="" table="u_equipment_request"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;attributes&gt;enforce_dot_walk_cross_scope_access=true&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element/&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;internal_type display_value="Collection"&gt;collection&lt;/internal_type&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;40&lt;/max_length&gt;&lt;name&gt;u_equipment_request&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_only_option/&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;Hilder.Ondigo&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-10-02 03:49:15&lt;/sys_created_on&gt;&lt;sys_id&gt;7dd637af73e387d075f5fb125ab8b712&lt;/sys_id&gt;&lt;sys_name&gt;u_equipment_request&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_u_equipment_request_null&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;Hilder.Ondigo&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-10-02 03:49:15&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1493974416</payload_hash>
+<remote_update_set display_value="Equipment_Request_Application">7c56c4f7736787d075f5fb125ab8b7b4</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>Hilder.Ondigo</sys_created_by>
+<sys_created_on>2026-10-02 04:56:55</sys_created_on>
+<sys_id>3456c4f7736787d075f5fb125ab8b7b7</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a0fabb51fc0000001</sys_recorded_at>
+<sys_updated_by>Hilder.Ondigo</sys_updated_by>
+<sys_updated_on>2026-10-02 04:56:55</sys_updated_on>
+<table>u_equipment_request</table>
+<target_name>Equipment Request</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>aae6b7af3be387d024190c00bc22721b</update_guid>
+<update_guid_history>aae6b7af3be387d024190c00bc22721b:1493974416</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_u_equipment_request__en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="" label="Equipment Request" language="en" table="u_equipment_request"><sys_documentation action="INSERT_OR_UPDATE"><element/><help/><hint/><label>Equipment Request</label><language>en</language><name>u_equipment_request</name><plural>Equipment Requests</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>Hilder.Ondigo</sys_created_by><sys_created_on>2026-10-02 03:49:25</sys_created_on><sys_id>18e677af73e387d075f5fb125ab8b708</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Equipment Request</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_documentation_u_equipment_request__en</sys_update_name><sys_updated_by>Hilder.Ondigo</sys_updated_by><sys_updated_on>2026-10-02 03:49:25</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>1418185027</payload_hash>
+<remote_update_set display_value="Equipment_Request_Application">7c56c4f7736787d075f5fb125ab8b7b4</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>Hilder.Ondigo</sys_created_by>
+<sys_created_on>2026-10-02 04:56:56</sys_created_on>
+<sys_id>4156c4f7736787d075f5fb125ab8b7ba</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a0fabb561b0000001</sys_recorded_at>
+<sys_updated_by>Hilder.Ondigo</sys_updated_by>
+<sys_updated_on>2026-10-02 04:56:56</sys_updated_on>
+<table>u_equipment_request</table>
+<target_name>Equipment Request</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>fee6b7af27e387d021fda61796b61c1e</update_guid>
+<update_guid_history>fee6b7af27e387d021fda61796b61c1e:1418185027</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_u_equipment_request_u_business_justification_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="u_business_justification" label="Business Justification" language="en" table="u_equipment_request"><sys_documentation action="INSERT_OR_UPDATE"><element>u_business_justification</element><help/><hint/><label>Business Justification</label><language>en</language><name>u_equipment_request</name><plural>Business Justifications</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>Hilder.Ondigo</sys_created_by><sys_created_on>2026-10-02 03:49:27</sys_created_on><sys_id>24e677af73e387d075f5fb125ab8b711</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Business Justification</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_documentation_u_equipment_request_u_business_justification_en</sys_update_name><sys_updated_by>Hilder.Ondigo</sys_updated_by><sys_updated_on>2026-10-02 03:49:27</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>329470637</payload_hash>
+<remote_update_set display_value="Equipment_Request_Application">7c56c4f7736787d075f5fb125ab8b7b4</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>Hilder.Ondigo</sys_created_by>
+<sys_created_on>2026-10-02 04:56:55</sys_created_on>
+<sys_id>4d56c4f7736787d075f5fb125ab8b7b8</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a0fabb57cc0000001</sys_recorded_at>
+<sys_updated_by>Hilder.Ondigo</sys_updated_by>
+<sys_updated_on>2026-10-02 04:56:55</sys_updated_on>
+<table>u_equipment_request</table>
+<target_name>Equipment Request.Business Justification</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>8be6b7af3fe387d0bf8737b64a41ff21</update_guid>
+<update_guid_history>8be6b7af3fe387d0bf8737b64a41ff21:329470637</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_f4d6f3af73e387d075f5fb125ab8b7ab</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><applies_to/><condition/><controlled_by_refs/><decision_type>allow</decision_type><description>Default access control on u_equipment_request</description><local_or_existing>Existing</local_or_existing><name>u_equipment_request</name><operation display_value="delete">delete</operation><script/><security_attribute/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>Hilder.Ondigo</sys_created_by><sys_created_on>2026-10-02 03:49:11</sys_created_on><sys_id>f4d6f3af73e387d075f5fb125ab8b7ab</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_equipment_request</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_security_acl_f4d6f3af73e387d075f5fb125ab8b7ab</sys_update_name><sys_updated_by>Hilder.Ondigo</sys_updated_by><sys_updated_on>2026-10-02 03:49:11</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+<payload_hash>417243537</payload_hash>
+<remote_update_set display_value="Equipment_Request_Application">7c56c4f7736787d075f5fb125ab8b7b4</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>Hilder.Ondigo</sys_created_by>
+<sys_created_on>2026-10-02 04:56:56</sys_created_on>
+<sys_id>5556c4f7736787d075f5fb125ab8b7bb</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a0fabafb1b0000001</sys_recorded_at>
+<sys_updated_by>Hilder.Ondigo</sys_updated_by>
+<sys_updated_on>2026-10-02 04:56:56</sys_updated_on>
+<table>u_equipment_request</table>
+<target_name>u_equipment_request</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid>0dd6f3af12e387d009b7be1f33a3b3af</update_guid>
+<update_guid_history>0dd6f3af12e387d009b7be1f33a3b3af:417243537</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_role_99d6f3af73e387d075f5fb125ab8b7b1</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>Hilder.Ondigo</sys_created_by><sys_created_on>2026-10-02 03:49:13</sys_created_on><sys_id>99d6f3af73e387d075f5fb125ab8b7b1</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_equipment_request.u_equipment_request_user</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_security_acl display_value="u_equipment_request">f4d6f3af73e387d075f5fb125ab8b7ab</sys_security_acl><sys_update_name>sys_security_acl_role_99d6f3af73e387d075f5fb125ab8b7b1</sys_update_name><sys_updated_by>Hilder.Ondigo</sys_updated_by><sys_updated_on>2026-10-02 03:49:13</sys_updated_on><sys_user_role display_value="u_equipment_request_user" name="u_equipment_request_user">2aa6bfeb73e387d075f5fb125ab8b76e</sys_user_role></sys_security_acl_role></record_update>]]></payload>
+<payload_hash>474734906</payload_hash>
+<remote_update_set display_value="Equipment_Request_Application">7c56c4f7736787d075f5fb125ab8b7b4</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>Hilder.Ondigo</sys_created_by>
+<sys_created_on>2026-10-02 04:56:57</sys_created_on>
+<sys_id>5956c8bb736787d075f5fb125ab8b70a</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a0fabb02d50000001</sys_recorded_at>
+<sys_updated_by>Hilder.Ondigo</sys_updated_by>
+<sys_updated_on>2026-10-02 04:56:57</sys_updated_on>
+<table>u_equipment_request</table>
+<target_name>u_equipment_request.u_equipment_request_user</target_name>
+<type>Access Roles</type>
+<update_domain>global</update_domain>
+<update_guid>6dd637af21e387d0388257664d2c3610</update_guid>
+<update_guid_history>6dd637af21e387d0388257664d2c3610:474734906</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_section_688cffe7732787d075f5fb125ab8b7a0</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="" section_id="688cffe7732787d075f5fb125ab8b7a0" sys_domain="global" table="u_equipment_request" version="3" view=""><sys_ui_element action="INSERT_OR_UPDATE"><element>u_requested_for</element><position>0</position><sys_created_by>Hilder.Ondigo</sys_created_by><sys_created_on>2026-10-02 04:18:45</sys_created_on><sys_id>fd9dbfab732787d075f5fb125ab8b7a9</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="u_equipment_request" sys_domain="global" view="Default view">688cffe7732787d075f5fb125ab8b7a0</sys_ui_section><sys_updated_by>Hilder.Ondigo</sys_updated_by><sys_updated_on>2026-10-02 04:18:45</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.split</element><position>1</position><sys_created_by>Hilder.Ondigo</sys_created_by><sys_created_on>2026-10-02 04:18:45</sys_created_on><sys_id>7d9dbfab732787d075f5fb125ab8b7aa</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="u_equipment_request" sys_domain="global" view="Default view">688cffe7732787d075f5fb125ab8b7a0</sys_ui_section><sys_updated_by>Hilder.Ondigo</sys_updated_by><sys_updated_on>2026-10-02 04:18:45</sys_updated_on><sys_user/><type>.split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_item_needed</element><position>2</position><sys_created_by>Hilder.Ondigo</sys_created_by><sys_created_on>2026-10-02 04:18:45</sys_created_on><sys_id>ca9dbfab732787d075f5fb125ab8b7ab</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="u_equipment_request" sys_domain="global" view="Default view">688cffe7732787d075f5fb125ab8b7a0</sys_ui_section><sys_updated_by>Hilder.Ondigo</sys_updated_by><sys_updated_on>2026-10-02 04:18:45</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_status</element><position>3</position><sys_created_by>Hilder.Ondigo</sys_created_by><sys_created_on>2026-10-02 04:18:45</sys_created_on><sys_id>4a9dbfab732787d075f5fb125ab8b7ac</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="u_equipment_request" sys_domain="global" view="Default view">688cffe7732787d075f5fb125ab8b7a0</sys_ui_section><sys_updated_by>Hilder.Ondigo</sys_updated_by><sys_updated_on>2026-10-02 04:18:45</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.end_split</element><position>4</position><sys_created_by>Hilder.Ondigo</sys_created_by><sys_created_on>2026-10-02 04:18:45</sys_created_on><sys_id>c69dbfab732787d075f5fb125ab8b7ad</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="u_equipment_request" sys_domain="global" view="Default view">688cffe7732787d075f5fb125ab8b7a0</sys_ui_section><sys_updated_by>Hilder.Ondigo</sys_updated_by><sys_updated_on>2026-10-02 04:18:45</sys_updated_on><sys_user/><type>.end_split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_business_justification</element><position>5</position><sys_created_by>Hilder.Ondigo</sys_created_by><sys_created_on>2026-10-02 04:18:45</sys_created_on><sys_id>469dbfab732787d075f5fb125ab8b7ae</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="u_equipment_request" sys_domain="global" view="Default view">688cffe7732787d075f5fb125ab8b7a0</sys_ui_section><sys_updated_by>Hilder.Ondigo</sys_updated_by><sys_updated_on>2026-10-02 04:18:45</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption/><header>false</header><name>u_equipment_request</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>Hilder.Ondigo</sys_created_by><sys_created_on>2026-10-02 04:14:01</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>688cffe7732787d075f5fb125ab8b7a0</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_equipment_request</sys_name><sys_overrides/><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_ui_section_688cffe7732787d075f5fb125ab8b7a0</sys_update_name><sys_updated_by>Hilder.Ondigo</sys_updated_by><sys_updated_on>2026-10-02 04:14:01</sys_updated_on><sys_user/><title>true</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+<payload_hash>286675289</payload_hash>
+<remote_update_set display_value="Equipment_Request_Application">7c56c4f7736787d075f5fb125ab8b7b4</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>Hilder.Ondigo</sys_created_by>
+<sys_created_on>2026-10-02 04:56:57</sys_created_on>
+<sys_id>6d56c8bb736787d075f5fb125ab8b70b</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a0fad609d90000001</sys_recorded_at>
+<sys_updated_by>Hilder.Ondigo</sys_updated_by>
+<sys_updated_on>2026-10-02 04:56:57</sys_updated_on>
+<table>u_equipment_request</table>
+<target_name>Equipment Request</target_name>
+<type>Form Layout</type>
+<update_domain>global</update_domain>
+<update_guid>c29dbfabac2787d01a1a6017396604d7</update_guid>
+<update_guid_history>c29dbfabac2787d01a1a6017396604d7:286675289,668cb36be22787d09a8a1a34e1a0b801:-1092507086,498cffe70e2787d05746ce993c37ada6:851160936</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_choice_u_equipment_request_u_item_needed</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_choice action="INSERT_OR_UPDATE" field="u_item_needed" table="u_equipment_request" version="3"><sys_choice_set action="INSERT_OR_UPDATE"><element>u_item_needed</element><name>u_equipment_request</name><sys_class_name>sys_choice_set</sys_class_name><sys_created_by>Hilder.Ondigo</sys_created_by><sys_created_on>2026-10-02 04:00:29</sys_created_on><sys_id>9a6973e3732787d075f5fb125ab8b7ef</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_item_needed</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_choice_u_equipment_request_u_item_needed</sys_update_name><sys_updated_by>Hilder.Ondigo</sys_updated_by><sys_updated_on>2026-10-02 04:00:29</sys_updated_on></sys_choice_set><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>u_item_needed</element><hint/><inactive>false</inactive><label>Ergonomic Chair</label><language>en</language><name>u_equipment_request</name><sequence/><synonyms/><sys_created_by>Hilder.Ondigo</sys_created_by><sys_created_on>2026-10-02 04:03:36</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>def9b7e3732787d075f5fb125ab8b78f</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>Hilder.Ondigo</sys_updated_by><sys_updated_on>2026-10-02 04:03:36</sys_updated_on><value>Chair</value></sys_choice><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>u_item_needed</element><hint/><inactive>false</inactive><label>Laptop</label><language>en</language><name>u_equipment_request</name><sequence/><synonyms/><sys_created_by>Hilder.Ondigo</sys_created_by><sys_created_on>2026-10-02 04:00:29</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>0939b763732787d075f5fb125ab8b714</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>Hilder.Ondigo</sys_updated_by><sys_updated_on>2026-10-02 04:00:29</sys_updated_on><value>laptop</value></sys_choice><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>u_item_needed</element><hint/><inactive>false</inactive><label>Monitor</label><language>en</language><name>u_equipment_request</name><sequence/><synonyms/><sys_created_by>Hilder.Ondigo</sys_created_by><sys_created_on>2026-10-02 04:02:01</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>c5a9bbe3732787d075f5fb125ab8b70b</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>Hilder.Ondigo</sys_updated_by><sys_updated_on>2026-10-02 04:02:01</sys_updated_on><value>Monitor</value></sys_choice></sys_choice></record_update>]]></payload>
+<payload_hash>2060295440</payload_hash>
+<remote_update_set display_value="Equipment_Request_Application">7c56c4f7736787d075f5fb125ab8b7b4</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>Hilder.Ondigo</sys_created_by>
+<sys_created_on>2026-10-02 04:56:54</sys_created_on>
+<sys_id>7456c4f7736787d075f5fb125ab8b7b6</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a0fac82f670000001</sys_recorded_at>
+<sys_updated_by>Hilder.Ondigo</sys_updated_by>
+<sys_updated_on>2026-10-02 04:56:54</sys_updated_on>
+<table>u_equipment_request</table>
+<target_name>Equipment Request.Item needed</target_name>
+<type>Choice list</type>
+<update_domain>global</update_domain>
+<update_guid>502afbe3252787d0c11936854573b23e</update_guid>
+<update_guid_history>502afbe3252787d0c11936854573b23e:2060295440,95c9b763902787d00c93f7a062bb6e21:-631533664,626973e3652787d0250887606b83f2f4:-1293206025</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_u_equipment_request_u_business_justification</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="u_business_justification" table="u_equipment_request"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;Business Justification&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;u_business_justification&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;400&lt;/max_length&gt;&lt;name&gt;u_equipment_request&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_only_option/&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;Hilder.Ondigo&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-10-02 03:48:41&lt;/sys_created_on&gt;&lt;sys_id&gt;9af57be773e387d075f5fb125ab8b702&lt;/sys_id&gt;&lt;sys_name&gt;Business Justification&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_u_equipment_request_u_business_justification&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;Hilder.Ondigo&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-10-02 03:48:41&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1244583900</payload_hash>
+<remote_update_set display_value="Equipment_Request_Application">7c56c4f7736787d075f5fb125ab8b7b4</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>Hilder.Ondigo</sys_created_by>
+<sys_created_on>2026-10-02 04:56:55</sys_created_on>
+<sys_id>7856c4f7736787d075f5fb125ab8b7b7</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a0faba84230000001</sys_recorded_at>
+<sys_updated_by>Hilder.Ondigo</sys_updated_by>
+<sys_updated_on>2026-10-02 04:56:55</sys_updated_on>
+<table>u_equipment_request</table>
+<target_name>u_equipment_request.u_business_justification</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>39b6ff6f7de387d07a219e861b7bab55</update_guid>
+<update_guid_history>39b6ff6f7de387d07a219e861b7bab55:1244583900</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_u_equipment_request_u_item_needed_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="u_item_needed" label="Item needed" language="en" table="u_equipment_request"><sys_documentation action="INSERT_OR_UPDATE"><element>u_item_needed</element><help/><hint/><label>Item needed</label><language>en</language><name>u_equipment_request</name><plural>Item needed</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>Hilder.Ondigo</sys_created_by><sys_created_on>2026-10-02 03:49:26</sys_created_on><sys_id>98e677af73e387d075f5fb125ab8b70b</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Item needed</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_documentation_u_equipment_request_u_item_needed_en</sys_update_name><sys_updated_by>Hilder.Ondigo</sys_updated_by><sys_updated_on>2026-10-02 03:49:26</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>-420054872</payload_hash>
+<remote_update_set display_value="Equipment_Request_Application">7c56c4f7736787d075f5fb125ab8b7b4</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>Hilder.Ondigo</sys_created_by>
+<sys_created_on>2026-10-02 04:56:55</sys_created_on>
+<sys_id>8156c4f7736787d075f5fb125ab8b7b9</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a0fabb5d910000001</sys_recorded_at>
+<sys_updated_by>Hilder.Ondigo</sys_updated_by>
+<sys_updated_on>2026-10-02 04:56:55</sys_updated_on>
+<table>u_equipment_request</table>
+<target_name>Equipment Request.Item needed</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>97e6b7afa9e387d0f3b4e334b8646da3</update_guid>
+<update_guid_history>97e6b7afa9e387d0f3b4e334b8646da3:-420054872</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_hub_flow_8d6e33ab732787d075f5fb125ab8b7d5</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_hub_flow"&gt;&lt;sys_hub_flow action="INSERT_OR_UPDATE"&gt;&lt;access&gt;public&lt;/access&gt;&lt;acls/&gt;&lt;active&gt;true&lt;/active&gt;&lt;allow_high_security_roles&gt;false&lt;/allow_high_security_roles&gt;&lt;annotation/&gt;&lt;attributes&gt;browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=1468000,viewActivatedIn=naturalLanguage&lt;/attributes&gt;&lt;authored_on_release_version&gt;29000&lt;/authored_on_release_version&gt;&lt;callable_by_client_api&gt;false&lt;/callable_by_client_api&gt;&lt;category/&gt;&lt;copied_from/&gt;&lt;copied_from_name/&gt;&lt;description/&gt;&lt;display_name_after_preview/&gt;&lt;flow_priority&gt;MEDIUM&lt;/flow_priority&gt;&lt;generation_source/&gt;&lt;internal_name&gt;equipment_request_approval_flow&lt;/internal_name&gt;&lt;label_cache&gt;[{"name":"59537296-8e8a-4200-9761-8317cb26b66f.approval_state","label":"1 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"usedInstances":{"6faece41-8c16-4bf8-82c1-3d819f330b1f":["condition"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"{{static.5137153cc611227c000bbd1bd8cd2005}}","label":"Fred Luddy","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","usedInstances":{"59537296-8e8a-4200-9761-8317cb26b66f":["approval_conditions"]}},{"name":"Created_1.current","label":"Trigger - Record Created➛Equipment Request Record","reference":"u_equipment_request","reference_display":"Equipment Request","type":"reference","base_type":"reference","usedInstances":{"59537296-8e8a-4200-9761-8317cb26b66f":["record"],"e7b974be-64b8-447d-850a-68500c4d1406":["record"],"e03c596b-ef0c-43b9-850d-dc22d7fa92e1":["record"]},"attributes":{}}]&lt;/label_cache&gt;&lt;master_snapshot&gt;3e0488b7736787d075f5fb125ab8b762&lt;/master_snapshot&gt;&lt;master_snapshot_digest/&gt;&lt;name&gt;Equipment Request Approval Flow&lt;/name&gt;&lt;natlang/&gt;&lt;outputs/&gt;&lt;pre_compiled&gt;false&lt;/pre_compiled&gt;&lt;remote_trigger_id&gt;b3140cb7736787d075f5fb125ab8b7a9&lt;/remote_trigger_id&gt;&lt;run_as&gt;user&lt;/run_as&gt;&lt;run_with_roles/&gt;&lt;sc_callable&gt;false&lt;/sc_callable&gt;&lt;show_draft_actions&gt;false&lt;/show_draft_actions&gt;&lt;show_triggered_flows&gt;false&lt;/show_triggered_flows&gt;&lt;status&gt;published&lt;/status&gt;&lt;substatus/&gt;&lt;sys_class_name&gt;sys_hub_flow&lt;/sys_class_name&gt;&lt;sys_created_by&gt;Hilder.Ondigo&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-10-02 04:22:15&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;8d6e33ab732787d075f5fb125ab8b7d5&lt;/sys_id&gt;&lt;sys_mod_count&gt;19&lt;/sys_mod_count&gt;&lt;sys_name&gt;Equipment Request Approval Flow&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_hub_flow_8d6e33ab732787d075f5fb125ab8b7d5&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;Hilder.Ondigo&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-10-02 04:47:18&lt;/sys_updated_on&gt;&lt;type&gt;flow&lt;/type&gt;&lt;updation_source/&gt;&lt;version&gt;2&lt;/version&gt;&lt;version_record&gt;c6d304b7736787d075f5fb125ab8b75d&lt;/version_record&gt;&lt;/sys_hub_flow&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=8d6e33ab732787d075f5fb125ab8b7d5"/&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=8d6e33ab732787d075f5fb125ab8b7d5"/&gt;&lt;sys_flow_record_trigger action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;condition table="u_equipment_request"&gt;^EQ&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/condition&gt;&lt;name/&gt;&lt;on_delete&gt;false&lt;/on_delete&gt;&lt;on_insert&gt;true&lt;/on_insert&gt;&lt;on_update&gt;false&lt;/on_update&gt;&lt;published_version/&gt;&lt;run_flow_in&gt;background&lt;/run_flow_in&gt;&lt;run_on_extended&gt;false&lt;/run_on_extended&gt;&lt;run_when_setting&gt;both&lt;/run_when_setting&gt;&lt;run_when_user_list/&gt;&lt;run_when_user_setting&gt;any&lt;/run_when_user_setting&gt;&lt;sys_class_name&gt;sys_flow_record_trigger&lt;/sys_class_name&gt;&lt;sys_created_by&gt;Hilder.Ondigo&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-10-02 04:47:16&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;b3140cb7736787d075f5fb125ab8b7a9&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_overrides/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_updated_by&gt;Hilder.Ondigo&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-10-02 04:47:16&lt;/sys_updated_on&gt;&lt;table&gt;u_equipment_request&lt;/table&gt;&lt;trigger_definition/&gt;&lt;/sys_flow_record_trigger&gt;&lt;sys_trigger_runner_mapping action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;data&gt;{"run_flow_in":"background","run_when_user_list":[],"run_when_setting":"both","run_when_user_setting":"any","run_on_extended":"false"}&lt;/data&gt;&lt;identifier&gt;8d6e33ab732787d075f5fb125ab8b7d5&lt;/identifier&gt;&lt;identifier_type&gt;flow&lt;/identifier_type&gt;&lt;runner&gt;FDTriggerRunner&lt;/runner&gt;&lt;sys_created_by&gt;Hilder.Ondigo&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-10-02 04:47:17&lt;/sys_created_on&gt;&lt;sys_id&gt;fb140cb7736787d075f5fb125ab8b7aa&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;Hilder.Ondigo&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-10-02 04:47:17&lt;/sys_updated_on&gt;&lt;trigger display_value=""&gt;b3140cb7736787d075f5fb125ab8b7a9&lt;/trigger&gt;&lt;/sys_trigger_runner_mapping&gt;&lt;sys_trigger_runner_mapping action="delete_multiple" query="identifier=8d6e33ab732787d075f5fb125ab8b7d5^sys_idNOT INfb140cb7736787d075f5fb125ab8b7aa"/&gt;&lt;sys_hub_flow_stage action="delete_multiple" query="flow=8d6e33ab732787d075f5fb125ab8b7d5"/&gt;&lt;sys_flow_cat_variable_model action="delete_multiple" query="id=8d6e33ab732787d075f5fb125ab8b7d5^sys_idNOT INd16e33ab732787d075f5fb125ab8b7d7"/&gt;&lt;sys_flow_cat_variable_model action="INSERT_OR_UPDATE"&gt;&lt;id&gt;8d6e33ab732787d075f5fb125ab8b7d5&lt;/id&gt;&lt;name&gt;Equipment Request Approval Flow&lt;/name&gt;&lt;sys_created_by&gt;Hilder.Ondigo&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-10-02 04:22:15&lt;/sys_created_on&gt;&lt;sys_id&gt;d16e33ab732787d075f5fb125ab8b7d7&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_scope/&gt;&lt;sys_updated_by&gt;Hilder.Ondigo&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-10-02 04:22:15&lt;/sys_updated_on&gt;&lt;/sys_flow_cat_variable_model&gt;&lt;sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=d16e33ab732787d075f5fb125ab8b7d7"/&gt;&lt;sys_hub_flow_input action="delete_multiple" query="model=8d6e33ab732787d075f5fb125ab8b7d5^sys_idNOT IN3b9ebf2f732787d075f5fb125ab8b77e,569e7f2f732787d075f5fb125ab8b7f0"/&gt;&lt;sys_hub_flow_input action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;table_name&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value=""&gt;table_name&lt;/internal_type&gt;&lt;label&gt;Table Name&lt;/label&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;200&lt;/max_length&gt;&lt;model display_value="Equipment Request Approval Flow"&gt;8d6e33ab732787d075f5fb125ab8b7d5&lt;/model&gt;&lt;model_id&gt;8d6e33ab732787d075f5fb125ab8b7d5&lt;/model_id&gt;&lt;model_table&gt;sys_hub_flow&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_flow_input_8d6e33ab732787d075f5fb125ab8b7d5&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;101&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_only_option/&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_flow_input&lt;/sys_class_name&gt;&lt;sys_created_by&gt;Hilder.Ondigo&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-10-02 04:23:15&lt;/sys_created_on&gt;&lt;sys_id&gt;3b9ebf2f732787d075f5fb125ab8b77e&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;Hilder.Ondigo&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-10-02 04:45:29&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_flow_input&gt;&lt;sys_hub_action_input_action_instance action="delete_multiple" query="action_input=3b9ebf2f732787d075f5fb125ab8b77e"/&gt;&lt;sys_hub_flow_input action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id,uiTypeLabel=Document ID&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent&gt;table_name&lt;/dependent&gt;&lt;dependent_on_field&gt;table_name&lt;/dependent_on_field&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;current&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value=""&gt;document_id&lt;/internal_type&gt;&lt;label&gt;Record&lt;/label&gt;&lt;mandatory&gt;true&lt;/mandatory&gt;&lt;max_length&gt;200&lt;/max_length&gt;&lt;model display_value="Equipment Request Approval Flow"&gt;8d6e33ab732787d075f5fb125ab8b7d5&lt;/model&gt;&lt;model_id&gt;8d6e33ab732787d075f5fb125ab8b7d5&lt;/model_id&gt;&lt;model_table&gt;sys_hub_flow&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_flow_input_8d6e33ab732787d075f5fb125ab8b7d5&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;100&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_only_option/&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_flow_input&lt;/sys_class_name&gt;&lt;sys_created_by&gt;Hilder.Ondigo&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-10-02 04:23:09&lt;/sys_created_on&gt;&lt;sys_id&gt;569e7f2f732787d075f5fb125ab8b7f0&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;Hilder.Ondigo&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-10-02 04:45:28&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;true&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_flow_input&gt;&lt;sys_hub_action_input_action_instance action="delete_multiple" query="action_input=569e7f2f732787d075f5fb125ab8b7f0"/&gt;&lt;sys_hub_flow_output action="delete_multiple" query="model=8d6e33ab732787d075f5fb125ab8b7d5"/&gt;&lt;sys_hub_alias_mapping action="delete_multiple" query="source_id=8d6e33ab732787d075f5fb125ab8b7d5"/&gt;&lt;sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=8d6e33ab732787d075f5fb125ab8b7d5^sys_idNOT IN319ef72f732787d075f5fb125ab8b7e3"/&gt;&lt;sys_hub_trigger_instance_v2 action="INSERT_OR_UPDATE"&gt;&lt;comment/&gt;&lt;display_text/&gt;&lt;flow display_value="Equipment Request Approval Flow"&gt;8d6e33ab732787d075f5fb125ab8b7d5&lt;/flow&gt;&lt;generation_source/&gt;&lt;name&gt;Created&lt;/name&gt;&lt;published_version/&gt;&lt;remote_sys_id/&gt;&lt;sys_created_by&gt;Hilder.Ondigo&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-10-02 04:23:06&lt;/sys_created_on&gt;&lt;sys_id&gt;319ef72f732787d075f5fb125ab8b7e3&lt;/sys_id&gt;&lt;sys_mod_count&gt;3&lt;/sys_mod_count&gt;&lt;sys_scope/&gt;&lt;sys_updated_by&gt;Hilder.Ondigo&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-10-02 04:46:38&lt;/sys_updated_on&gt;&lt;trigger_definition display_value="Created"&gt;798916a0c31322002841b63b12d3ae7c&lt;/trigger_definition&gt;&lt;trigger_inputs&gt;H4sIAAAAAAAA/9VYXW/bNhT9K4KeNsAF9GHHcd66xMUCdC3muNtDkAmUdGkToylXopR6Rf77LvVlWR+OHSut8xLEJE2ee3juuZe+/65z4gLXr/Q5cTnoA50JCaEgfL5ZAw5LNewIslJzKyJ8IoNwo1/JMIaBTsNgNYfVmhOJiynhEQ4GoQ+hfmUO9ITwGO420a2PO+H3023yPfV8Gj/HDnyN2XoFQjoh/guRxFmfRbjv5q980bRYos3KJd6ScT8EoV/dPwz0NQlxf6nO/l6bYgqARz0yscDwbNO2LMOwLoeme2G7puXbBAwDN6yTUQMsWzjZRgvfJAgf/JKIBl0hEP+z4JtyxRLZzqhZkW8R+w93vzTUOgqI3YNsrvzo5Jxkw94yYB58XksWiGwkw5lNBjxeiU8ZfsUmUBJzWbCJI3GE+8FaQVYgckT0bhk8zooDPzCRRpdP8sAjvPxEpAyZG0uIFOGUcaTeybiJgjhM0c+m159nN87f7+fXv09nzmx6N5/dXs+nN/pTGpfzNVY7ZghzLE4WzlMpgQ8MuLrAaBM5eJMDPfJCtpbvPcmSQnZPg62UrwPhs5SVhpy9YiralXMR/T49G0anor3KiYWq/5n+2VRxNnicbi8uCPGBdOjWpRXdViNvgSZbSKhGt0/B+cghEh4axk8Sce5KL9XwKvCB32y303FysUBVM7GOpWLrkQgZOTJwiO87FR7VUsT0nKiz2J6eVXAYC/yCU95HU8cpbSV/Hxn64dU9ZuGdMseU9HdoSbSgKj0Bl9OP+QmzWGgB3iP+0bw4DJWxFjZHb1dkkROMG3LwZEUT9EtU/fQHiyImFpUgujCkDDUglKej1LQi4AxKdCKWhz5TvHklSY3bWqofneemSakL1DLGKstNw3apaYyNEaG+bRieVcnzJphOlLImmFfJ9+OyPUqlyg9QYp3iHLxRzZWDZJTsarAgQUkkN5XrfqCZPUGzFLSaOdpHuWMpy2z4Zled+0LruTMgfkLwG/6hJnmgP1IePKIxn+6NLvH+XYRBLPy6O6kjNCa07Qrtl5zOX1/PJ2kQwn48uyvOySG3l1LImohND95oU9OdwBAMtEQb3dAdTSauRyxKxxdjsMyaN25htGJ7E574jPiSNvV2+WOrcJI2vR3hjCcAbLjk0QBP98dcmK3umM29DR98XIJwEGrocJa+imt2uODMh2Ku32xvHJ1s8/vUjKeXE29kjsfeGF88mPF0CC4xh9aITMYX9uWolvENKPtgyhZmfsg7SL1gFZAON/iSTZ3Xw/41ZRuBlKocnVzDBTa96RYkO7NSONUtaanHBKH2KRDvbrfrtDvAepi+jV+pmB8CSl279kNRuYFcNpoLRPIbju8gUS1rB2dn9zqrKSrZjfXk1xkML0cTarf7EZ20+dEWTDfMs+9FDsyfpDMT25qSQ/WftKZRZxfxAgnXZFJtL/b0P32RYvZOivV6pNgn91xFLnY+SV8C9g3Vu7QJ6bHoKQjgBLTq5TeBhhManqkxquW/YIKvuRtNLgEZ5thr4/maAnOqie+pMU1kpb5/Kq6st2+UPhzW8tbs/KpaTTf9vq3BH5PRyO7otCf1t3UboGfwnn2NOzpnkrYU3Fvojtu3vmdrqatIdlcRBxaxXqNur2SnRd1ay56L+vQqte+XgRYUZ1p/Hv4HGZxDgt0fAAA=&lt;/trigger_inputs&gt;&lt;trigger_outputs/&gt;&lt;trigger_type&gt;record_create&lt;/trigger_type&gt;&lt;updation_source/&gt;&lt;/sys_hub_trigger_instance_v2&gt;&lt;sys_hub_action_instance_v2 action="delete_multiple" query="flow=8d6e33ab732787d075f5fb125ab8b7d5^sys_idNOT IN6603c87f732787d075f5fb125ab8b783,aa2f7beb732787d075f5fb125ab8b713,fa518c73736787d075f5fb125ab8b79b"/&gt;&lt;sys_hub_action_instance_v2 action="INSERT_OR_UPDATE"&gt;&lt;action_type display_value="Update Record"&gt;f9d01dd2c31332002841b63b12d3aea1&lt;/action_type&gt;&lt;action_type_parent display_value="Update Record"&gt;baf174c8c3c232002841b63b12d3aee4&lt;/action_type_parent&gt;&lt;attributes/&gt;&lt;comment/&gt;&lt;compiled_snapshot/&gt;&lt;display_text/&gt;&lt;flow display_value="Equipment Request Approval Flow"&gt;8d6e33ab732787d075f5fb125ab8b7d5&lt;/flow&gt;&lt;generation_source/&gt;&lt;order&gt;5&lt;/order&gt;&lt;parent_ui_id&gt;7e27fbf5-83a3-441f-879a-413e9dfdcb94&lt;/parent_ui_id&gt;&lt;sys_class_name&gt;sys_hub_action_instance_v2&lt;/sys_class_name&gt;&lt;sys_created_by&gt;Hilder.Ondigo&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-10-02 04:42:33&lt;/sys_created_on&gt;&lt;sys_id&gt;6603c87f732787d075f5fb125ab8b783&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_updated_by&gt;Hilder.Ondigo&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-10-02 04:45:39&lt;/sys_updated_on&gt;&lt;ui_id&gt;e03c596b-ef0c-43b9-850d-dc22d7fa92e1&lt;/ui_id&gt;&lt;updation_source/&gt;&lt;values&gt;H4sIAAAAAAAA/+1U32vbMBD+V4KfjbHjNLR5K80Ce1g7stGXrhjZuiQCWVb1I20W8r/vJMtu0m5tKIExmJ98p7vvvu/0obttxGg0iUZA0+wiG1d5lufDNB2ej7JynJfZkOYEIIviSJAasFJB1SiK8Zpw6xLb7ZUCYoAWWVJZpUCY3Q7PKdOSk81tKMNMtWKc4nk0ubuPI0kUIhpQ0WT74shsJBSclMCxcdpUtkbQwecpYhzLtuued3Rf0nczMKYBvWAuiUeOT5bGETwZEBRw3IJwDXFUE0GJadQmmhhlMYGq6Y3gm75ixYRpldbkSbOfiD9KXd0CUFoVttCHRdhQt5yGVXAjDWtEmzGk5N3mGm5rcd1KcLuFBbHc7O3WasQD6Sg7Ei3DxbdV8zjv5s2Y8OoCW95UhPcRMUax0hrQ7jqAg19KTaRkYllI1ayZb0YqdbLkGCQL3jziTM2WIiGV453ggkgyw/zUp2+JYk7EF4TB5p0XXzxYN7eVEQgXXrMXXPiLwlJdKSbNJQKvIdDcxcGu5dlbBqgunu97D/PZsraAB8ukl6jwF7R5bdhPXclg3pd8zMHfHYfBdcvhWP4HzX/QEzx8kAsWPjuZhc//koUDo3/Mw+85Nx2++XTt3bQ3qz5wrTbEWP3DpmlOv+JUlDW4lE4Ysnll4HfrP+hmqHGKgUE7Jz5aVwcwY8Cp/o3Qzs5hQLEOA/pX+WSezsap//4/zid8nO9/AR+li75NCAAA&lt;/values&gt;&lt;/sys_hub_action_instance_v2&gt;&lt;sys_hub_alias_mapping action="delete_multiple" query="source_id=6603c87f732787d075f5fb125ab8b783"/&gt;&lt;sys_hub_action_instance_v2 action="INSERT_OR_UPDATE"&gt;&lt;action_type display_value="Ask For Approval"&gt;f8f2e9920b10030085c083eb37673abd&lt;/action_type&gt;&lt;action_type_parent display_value="Ask For Approval"&gt;bae0a1120b10030085c083eb37673a92&lt;/action_type_parent&gt;&lt;attributes/&gt;&lt;comment/&gt;&lt;compiled_snapshot/&gt;&lt;display_text/&gt;&lt;flow display_value="Equipment Request Approval Flow"&gt;8d6e33ab732787d075f5fb125ab8b7d5&lt;/flow&gt;&lt;generation_source/&gt;&lt;order&gt;1&lt;/order&gt;&lt;parent_ui_id/&gt;&lt;sys_class_name&gt;sys_hub_action_instance_v2&lt;/sys_class_name&gt;&lt;sys_created_by&gt;Hilder.Ondigo&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-10-02 04:25:37&lt;/sys_created_on&gt;&lt;sys_id&gt;aa2f7beb732787d075f5fb125ab8b713&lt;/sys_id&gt;&lt;sys_mod_count&gt;3&lt;/sys_mod_count&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_updated_by&gt;Hilder.Ondigo&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-10-02 04:46:39&lt;/sys_updated_on&gt;&lt;ui_id&gt;59537296-8e8a-4200-9761-8317cb26b66f&lt;/ui_id&gt;&lt;updation_source/&gt;&lt;values&gt;H4sIAAAAAAAA/+1YbW/TMBD+K1M+d8VJmjTtt4kxCcSLtA2+rFPk2JfNyHVCYg9K1f/OOXHarhul2joGiC9Vfb6X587PXZxczD3BvbE3TPIARqOAZD4hISFJxEgSQhYO42FIGfF6nqJTQM0KWFFxXN9QaaxgPn9ZAdXAU7/PTFWB0osF7nNRl5LOPjk1lLBrITnue+OLy55X0go9aqi88XxjS89KSCXNQKLhccHMFJ0evD5GH7ui7axPO7ib8G0MXHPnPRVWiFsWD+l58E2D4oDRcipr6HlTqjjVRTXzxroyKMCk+QclZ0uNa6F0m+iUfqvFd3QfBlYvB8yMuSIsl6krUFebQjD4UGpRqFaiaSa7whXSTNX7NgNbWsipkXqttKZGf1BayBZEizA/uy6+nnbxToRqknNoZcGoXK6o1pXIjIbangZIaGoypWUp1FVaVsWNaIwRyrR/JXHRz2XxFWPW4kr1KbO4+1gg2j9B+XEj/kQrYZN4h27QeNEkn34xNm6bhgOcNjm3CaNWzSpR6iP0eQMO4aLniJqxrUfPVifdulvx1KTwxYiySazCv1Druyx91akcnC5VHkbbcxv+oDmz3s7QbxnfTcVxtlmmqnXtKOtvp6yT7MLZhDwPZx2iv4y0v+IrDOIwwp9hHhI/8EkCcZKwEaEsieNoEK4OGeMhYiqRnLRG3yvm7nGYnmHF1FXHyB3AdYZHDh32hUP3U9iOpXUXyjE02BtD/fgvpagR5xu1aSVvN0/nabhsw31UAufaa3v6cZDFI5LwQ56T7HCQhNEhZUAOIfYjiHjMIj98NP+Jv23o8eQeIuUCJH8a+p9Y17eG8g747rTAiQP4M+CuAZrlxpjeXxMkhDxTF/y7lwu2lQywNqw/F6ZSv5urO8DrjN+0+Dapugl7C1PD/0z9g5k6iLZSAe6ZTqxQXFh89Rpf25kG9ZGafbyYz2tNtWB9HPxDPwoZi30/CIYMDzDLuJ/xhPGAkGixuLxL9Me4eliHrO4kRkLddckOpVm+HDq7raVyPbK65zgj1yeDfb0rPl+b/Js3b7aVB/lode7cYDmoXn9ZnE+8FuTEG088VSiYeL2JZ7VSS4hGjBoIbrnRyOaLdm0q6sz9teXKltNZ3WjW7Bo4UqqR3pK0PHfyfX5ROXMBDo4R9YtzsfaE+XXNlp9lTGt/bxm7V4Auk7ZuYv35Eu3t+TL43zYbl/y0G1b2cYID6MG9dPkDXfig9SAUAAA=&lt;/values&gt;&lt;/sys_hub_action_instance_v2&gt;&lt;sys_hub_alias_mapping action="delete_multiple" query="source_id=aa2f7beb732787d075f5fb125ab8b713"/&gt;&lt;sys_hub_action_instance_v2 action="INSERT_OR_UPDATE"&gt;&lt;action_type display_value="Update Record"&gt;f9d01dd2c31332002841b63b12d3aea1&lt;/action_type&gt;&lt;action_type_parent display_value="Update Record"&gt;baf174c8c3c232002841b63b12d3aee4&lt;/action_type_parent&gt;&lt;attributes/&gt;&lt;comment/&gt;&lt;compiled_snapshot/&gt;&lt;display_text/&gt;&lt;flow display_value="Equipment Request Approval Flow"&gt;8d6e33ab732787d075f5fb125ab8b7d5&lt;/flow&gt;&lt;generation_source/&gt;&lt;order&gt;3&lt;/order&gt;&lt;parent_ui_id&gt;6faece41-8c16-4bf8-82c1-3d819f330b1f&lt;/parent_ui_id&gt;&lt;sys_class_name&gt;sys_hub_action_instance_v2&lt;/sys_class_name&gt;&lt;sys_created_by&gt;Hilder.Ondigo&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-10-02 04:35:11&lt;/sys_created_on&gt;&lt;sys_id&gt;fa518c73736787d075f5fb125ab8b79b&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_updated_by&gt;Hilder.Ondigo&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-10-02 04:45:38&lt;/sys_updated_on&gt;&lt;ui_id&gt;e7b974be-64b8-447d-850a-68500c4d1406&lt;/ui_id&gt;&lt;updation_source/&gt;&lt;values&gt;H4sIAAAAAAAA/+1U32vbMBD+V4KejbHjNLR5K8sCe1gL2ehLV4wsXVKBLLv6kTYL+d93kuU0adculMAYzE++091333f60O2GCE4mZAQ8yy/yMSvyohhm2fB8lFfjosqHvKAAOUmIojVgpQbWaI7xikrnE5vNJw3UAi/zlDmtQdntFs+5MK2k65tYhhl2LyTHczK5vUtISzUiWtBksnlxZNctlJJWILFx2jBXI+jgyxQxjmXbd897ui/p+xkY84heCp/EI88nzxICTxYUBxy3oNJAQmqqOLWNXpOJ1Q4TqJpfK7neVdwLZTulNX0y4ifijzJftwCUxuIWdmEZN9QvpxEMrlsrGtVlLK1kv7lGulpddRL8bmFBnbR7u3UG8aD1lD2JjuHi233zOO/nzYQK6iJb2TAqdxG1VovKWTD+OkBCWEpN21aoZdnqZiVCM1Kp06XEIF3I5hFnGrFUKWWed4oLoukM89OQvqFaeBFfEQabt0F8+eD83E5GJFwGzUFwGS4KSw3TorWXCLyCSHObRLtWZ+8ZgF083/ce5rNlXQkPTrRBosZfMPa1YT/3JYP5ruRjDv7uOQyuOg7H8j9ofkNP9PBBLlr47GQWPv9LFo6M/jEP/8m52fDdp2vvpoNZzYFrjaXWmR8uywp+2XpBwF8b9826D7oXakS3MOjwk6N19AAzAZKb3wjr7RsHlKs4YPcKn8zD+TgL3//H+ISP8d0v6kgBIT0IAAA=&lt;/values&gt;&lt;/sys_hub_action_instance_v2&gt;&lt;sys_hub_alias_mapping action="delete_multiple" query="source_id=fa518c73736787d075f5fb125ab8b79b"/&gt;&lt;sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=8d6e33ab732787d075f5fb125ab8b7d5"/&gt;&lt;sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=8d6e33ab732787d075f5fb125ab8b7d5^sys_idNOT IN7f404033736787d075f5fb125ab8b788,c7924037736787d075f5fb125ab8b709"/&gt;&lt;sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE"&gt;&lt;attributes/&gt;&lt;block display_value=""&gt;23b300b7736787d075f5fb125ab8b7b9&lt;/block&gt;&lt;comment/&gt;&lt;connected_to/&gt;&lt;decision_table/&gt;&lt;display_text/&gt;&lt;flow display_value="Equipment Request Approval Flow"&gt;8d6e33ab732787d075f5fb125ab8b7d5&lt;/flow&gt;&lt;flow_variables_assigned/&gt;&lt;generation_source/&gt;&lt;logic_definition display_value="If"&gt;af4e1945c3e232002841b63b12d3ae3e&lt;/logic_definition&gt;&lt;order&gt;2&lt;/order&gt;&lt;outputs_assigned/&gt;&lt;parent_ui_id/&gt;&lt;sys_class_name&gt;sys_hub_flow_logic_instance_v2&lt;/sys_class_name&gt;&lt;sys_created_by&gt;Hilder.Ondigo&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-10-02 04:30:37&lt;/sys_created_on&gt;&lt;sys_id&gt;7f404033736787d075f5fb125ab8b788&lt;/sys_id&gt;&lt;sys_mod_count&gt;6&lt;/sys_mod_count&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_updated_by&gt;Hilder.Ondigo&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-10-02 04:46:40&lt;/sys_updated_on&gt;&lt;ui_id&gt;6faece41-8c16-4bf8-82c1-3d819f330b1f&lt;/ui_id&gt;&lt;updation_source/&gt;&lt;values&gt;H4sIAAAAAAAA/+1Uy27bMBD8lYBnWdDDkh83o0WAAG0DNEEubSCsSMomSpEqSdlxDf97l3o4RmujRZFjb+Isd3dmOasD0a1rWmcf9cpasVZk+eU5IEJ5DL8PREHNyZJQrZhwQquiAwKyBdn6wF11s2oao7ecIcqEbSTsny4G6UZIZvjQowGDlRw3ZHn4JeT2DS8klFxijQdnhFpjumB4qiKo4gWNaZrkaRJFyXwal3laxglLgUOK98bEdyPlmw8dElzV4vshbsdO2jBPK44Cwl8cVwzpLyuQlgekBsXAabM/IYYDu1fyFdgI5bAc8ZdfrPiBtZMs8xcrjhop74OnYzFMrYfpRgvK7xtPsEcclHLIoVq2tfrU6/Dz5hW00o3zRqS1WI83nrRnMVCqHjZ693lseCtUJ3AISk1Bnk7gcAxl67j1D8Mlr7FQUUPT4HAK/5iiS0YudbiWeAgrqXfY1PsnBOqJhzgjCG8Rf9/BT2CEV/ERy2ByT7MEK2jReQ3LOYMSjt1Yiu+tJ9QLHKQU/TTwgqVGNG6FfbZ8YH0MfjfqmUcPh2yRpbNkkU/mfA6TKRpnspjl8WSexjNaJnmZ51UInVVBFtaB48fj1zaKUgZX3f1WZd9iLxaQVVkcZZf3Yppf2osLG3F9GZI/LIN/vr/chSiK/i/D+TIIW/SmHrR1zf95F5698fsOtvcN41RYJPLosbvx3+4DezSAoOfQTptvXsIrdvwJIV1a2yUGAAA=&lt;/values&gt;&lt;workflow_reference/&gt;&lt;/sys_hub_flow_logic_instance_v2&gt;&lt;sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE"&gt;&lt;attributes/&gt;&lt;block display_value=""&gt;b7b300b7736787d075f5fb125ab8b7bd&lt;/block&gt;&lt;comment/&gt;&lt;connected_to&gt;6faece41-8c16-4bf8-82c1-3d819f330b1f&lt;/connected_to&gt;&lt;decision_table/&gt;&lt;display_text/&gt;&lt;flow display_value="Equipment Request Approval Flow"&gt;8d6e33ab732787d075f5fb125ab8b7d5&lt;/flow&gt;&lt;flow_variables_assigned/&gt;&lt;generation_source/&gt;&lt;logic_definition display_value="Else"&gt;1f781bf3c32232002841b63b12d3aee6&lt;/logic_definition&gt;&lt;order&gt;4&lt;/order&gt;&lt;outputs_assigned/&gt;&lt;parent_ui_id/&gt;&lt;sys_class_name&gt;sys_hub_flow_logic_instance_v2&lt;/sys_class_name&gt;&lt;sys_created_by&gt;Hilder.Ondigo&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-10-02 04:40:40&lt;/sys_created_on&gt;&lt;sys_id&gt;c7924037736787d075f5fb125ab8b709&lt;/sys_id&gt;&lt;sys_mod_count&gt;5&lt;/sys_mod_count&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_updated_by&gt;Hilder.Ondigo&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-10-02 04:46:42&lt;/sys_updated_on&gt;&lt;ui_id&gt;7e27fbf5-83a3-441f-879a-413e9dfdcb94&lt;/ui_id&gt;&lt;updation_source/&gt;&lt;values&gt;H4sIAAAAAAAA/6tWyi8tKSgtKQ7JdywuzkzPU7KKjtVRyswDiUHYZYlFmYlJOalQbkpqcmZxZn5eCEjME0ldSmVeYm5mMrJQeX5RdlpOfjlCrBYAD1ouqHEAAAA=&lt;/values&gt;&lt;workflow_reference/&gt;&lt;/sys_hub_flow_logic_instance_v2&gt;&lt;sys_hub_pill_compound action="delete_multiple" query="attached_to=8d6e33ab732787d075f5fb125ab8b7d5"/&gt;&lt;sys_hub_flow_variable action="delete_multiple" query="model=8d6e33ab732787d075f5fb125ab8b7d5"/&gt;&lt;sys_documentation action="INSERT_OR_UPDATE"&gt;&lt;element&gt;table_name&lt;/element&gt;&lt;help/&gt;&lt;hint/&gt;&lt;label&gt;Table Name&lt;/label&gt;&lt;language&gt;en&lt;/language&gt;&lt;name&gt;var__m_sys_hub_flow_input_8d6e33ab732787d075f5fb125ab8b7d5&lt;/name&gt;&lt;plural/&gt;&lt;sys_class_name&gt;sys_documentation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;Hilder.Ondigo&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-10-02 04:23:16&lt;/sys_created_on&gt;&lt;sys_id&gt;48aebf2f732787d075f5fb125ab8b7db&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;Hilder.Ondigo&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-10-02 04:23:16&lt;/sys_updated_on&gt;&lt;url/&gt;&lt;url_target/&gt;&lt;/sys_documentation&gt;&lt;sys_documentation action="INSERT_OR_UPDATE"&gt;&lt;element&gt;current&lt;/element&gt;&lt;help/&gt;&lt;hint/&gt;&lt;label&gt;Record&lt;/label&gt;&lt;language&gt;en&lt;/language&gt;&lt;name&gt;var__m_sys_hub_flow_input_8d6e33ab732787d075f5fb125ab8b7d5&lt;/name&gt;&lt;plural/&gt;&lt;sys_class_name&gt;sys_documentation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;Hilder.Ondigo&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-10-02 04:23:14&lt;/sys_created_on&gt;&lt;sys_id&gt;639ebf2f732787d075f5fb125ab8b77a&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;Hilder.Ondigo&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-10-02 04:23:14&lt;/sys_updated_on&gt;&lt;url/&gt;&lt;url_target/&gt;&lt;/sys_documentation&gt;&lt;sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_8d6e33ab732787d075f5fb125ab8b7d5"/&gt;&lt;sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_8d6e33ab732787d075f5fb125ab8b7d5"/&gt;&lt;sys_hub_flow_snapshot action="INSERT_OR_UPDATE"&gt;&lt;access&gt;public&lt;/access&gt;&lt;acls/&gt;&lt;active&gt;true&lt;/active&gt;&lt;allow_high_security_roles&gt;false&lt;/allow_high_security_roles&gt;&lt;annotation/&gt;&lt;attributes&gt;browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,viewActivatedIn=naturalLanguage&lt;/attributes&gt;&lt;authored_on_release_version&gt;29000&lt;/authored_on_release_version&gt;&lt;callable_by_client_api&gt;false&lt;/callable_by_client_api&gt;&lt;category/&gt;&lt;copied_from/&gt;&lt;copied_from_name/&gt;&lt;description/&gt;&lt;flow_priority&gt;MEDIUM&lt;/flow_priority&gt;&lt;internal_name&gt;equipment_request_approval_flow&lt;/internal_name&gt;&lt;label_cache&gt;[{"name":"59537296-8e8a-4200-9761-8317cb26b66f.approval_state","label":"1 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"usedInstances":{"6faece41-8c16-4bf8-82c1-3d819f330b1f":["condition"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"{{static.5137153cc611227c000bbd1bd8cd2005}}","label":"Fred Luddy","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","usedInstances":{"59537296-8e8a-4200-9761-8317cb26b66f":["approval_conditions"]}},{"name":"Created_1.current","label":"Trigger - Record Created➛Equipment Request Record","reference":"u_equipment_request","reference_display":"Equipment Request","type":"reference","base_type":"reference","usedInstances":{"59537296-8e8a-4200-9761-8317cb26b66f":["record"],"e7b974be-64b8-447d-850a-68500c4d1406":["record"],"e03c596b-ef0c-43b9-850d-dc22d7fa92e1":["record"]},"attributes":{}}]&lt;/label_cache&gt;&lt;master&gt;true&lt;/master&gt;&lt;name&gt;Equipment Request Approval Flow&lt;/name&gt;&lt;natlang/&gt;&lt;outputs/&gt;&lt;parent_flow display_value="Equipment Request Approval Flow"&gt;8d6e33ab732787d075f5fb125ab8b7d5&lt;/parent_flow&gt;&lt;remote_trigger_id/&gt;&lt;run_as&gt;user&lt;/run_as&gt;&lt;run_with_roles/&gt;&lt;sc_callable&gt;false&lt;/sc_callable&gt;&lt;status&gt;published&lt;/status&gt;&lt;sys_class_name&gt;sys_hub_flow_snapshot&lt;/sys_class_name&gt;&lt;sys_created_by&gt;Hilder.Ondigo&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-10-02 04:46:56&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;3e0488b7736787d075f5fb125ab8b762&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_overrides/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;Hilder.Ondigo&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-10-02 04:46:56&lt;/sys_updated_on&gt;&lt;type&gt;flow&lt;/type&gt;&lt;version&gt;2&lt;/version&gt;&lt;/sys_hub_flow_snapshot&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=3e0488b7736787d075f5fb125ab8b762"/&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=3e0488b7736787d075f5fb125ab8b762"/&gt;&lt;sys_hub_flow_stage action="delete_multiple" query="flow=3e0488b7736787d075f5fb125ab8b762"/&gt;&lt;sys_flow_cat_variable_model action="delete_multiple" query="id=3e0488b7736787d075f5fb125ab8b762^sys_idNOT IN470488b7736787d075f5fb125ab8b764"/&gt;&lt;sys_flow_cat_variable_model action="INSERT_OR_UPDATE"&gt;&lt;id&gt;3e0488b7736787d075f5fb125ab8b762&lt;/id&gt;&lt;name&gt;Equipment Request Approval Flow&lt;/name&gt;&lt;sys_created_by&gt;Hilder.Ondigo&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-10-02 04:46:57&lt;/sys_created_on&gt;&lt;sys_id&gt;470488b7736787d075f5fb125ab8b764&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_scope/&gt;&lt;sys_updated_by&gt;Hilder.Ondigo&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-10-02 04:46:57&lt;/sys_updated_on&gt;&lt;/sys_flow_cat_variable_model&gt;&lt;sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=470488b7736787d075f5fb125ab8b764"/&gt;&lt;sys_hub_flow_input action="delete_multiple" query="model=3e0488b7736787d075f5fb125ab8b762^sys_idNOT IN4f0488b7736787d075f5fb125ab8b765,801488b7736787d075f5fb125ab8b791"/&gt;&lt;sys_hub_flow_input action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id,uiTypeLabel=Document ID&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent&gt;table_name&lt;/dependent&gt;&lt;dependent_on_field&gt;table_name&lt;/dependent_on_field&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;current&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value=""&gt;document_id&lt;/internal_type&gt;&lt;label&gt;Record&lt;/label&gt;&lt;mandatory&gt;true&lt;/mandatory&gt;&lt;max_length&gt;200&lt;/max_length&gt;&lt;model display_value="Equipment Request Approval Flow"&gt;3e0488b7736787d075f5fb125ab8b762&lt;/model&gt;&lt;model_id&gt;3e0488b7736787d075f5fb125ab8b762&lt;/model_id&gt;&lt;model_table&gt;sys_hub_flow_snapshot&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_flow_input_3e0488b7736787d075f5fb125ab8b762&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;100&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_only_option/&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_flow_input&lt;/sys_class_name&gt;&lt;sys_created_by&gt;Hilder.Ondigo&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-10-02 04:46:57&lt;/sys_created_on&gt;&lt;sys_id&gt;4f0488b7736787d075f5fb125ab8b765&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;Hilder.Ondigo&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-10-02 04:46:57&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;true&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_flow_input&gt;&lt;sys_hub_action_input_action_instance action="delete_multiple" query="action_input=4f0488b7736787d075f5fb125ab8b765"/&gt;&lt;sys_hub_flow_input action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;table_name&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value=""&gt;table_name&lt;/internal_type&gt;&lt;label&gt;Table Name&lt;/label&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;200&lt;/max_length&gt;&lt;model display_value="Equipment Request Approval Flow"&gt;3e0488b7736787d075f5fb125ab8b762&lt;/model&gt;&lt;model_id&gt;3e0488b7736787d075f5fb125ab8b762&lt;/model_id&gt;&lt;model_table&gt;sys_hub_flow_snapshot&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_flow_input_3e0488b7736787d075f5fb125ab8b762&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;101&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_only_option/&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_flow_input&lt;/sys_class_name&gt;&lt;sys_created_by&gt;Hilder.Ondigo&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-10-02 04:47:01&lt;/sys_created_on&gt;&lt;sys_id&gt;801488b7736787d075f5fb125ab8b791&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;Hilder.Ondigo&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-10-02 04:47:01&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_flow_input&gt;&lt;sys_hub_action_input_action_instance action="delete_multiple" query="action_input=801488b7736787d075f5fb125ab8b791"/&gt;&lt;sys_hub_flow_output action="delete_multiple" query="model=3e0488b7736787d075f5fb125ab8b762"/&gt;&lt;sys_hub_alias_mapping action="delete_multiple" query="source_id=3e0488b7736787d075f5fb125ab8b762"/&gt;&lt;sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=3e0488b7736787d075f5fb125ab8b762^sys_idNOT INf514c8b7736787d075f5fb125ab8b7e2"/&gt;&lt;sys_hub_trigger_instance_v2 action="INSERT_OR_UPDATE"&gt;&lt;comment/&gt;&lt;display_text/&gt;&lt;flow display_value="Equipment Request Approval Flow"&gt;3e0488b7736787d075f5fb125ab8b762&lt;/flow&gt;&lt;generation_source/&gt;&lt;name&gt;Created&lt;/name&gt;&lt;published_version/&gt;&lt;remote_sys_id/&gt;&lt;sys_created_by&gt;Hilder.Ondigo&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-10-02 04:47:08&lt;/sys_created_on&gt;&lt;sys_id&gt;f514c8b7736787d075f5fb125ab8b7e2&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_scope/&gt;&lt;sys_updated_by&gt;Hilder.Ondigo&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-10-02 04:47:08&lt;/sys_updated_on&gt;&lt;trigger_definition display_value="Created"&gt;798916a0c31322002841b63b12d3ae7c&lt;/trigger_definition&gt;&lt;trigger_inputs&gt;H4sIAAAAAAAA/9VYXW/bNhT9K4KeNsAF9GHHcd66xMUCdC3muNtDkAmUdGkToylXopR6Rf77LvVlWR+OHSut8xLEJE2ee3juuZe+/65z4gLXr/Q5cTnoA50JCaEgfL5ZAw5LNewIslJzKyJ8IoNwo1/JMIaBTsNgNYfVmhOJiynhEQ4GoQ+hfmUO9ITwGO420a2PO+H3023yPfV8Gj/HDnyN2XoFQjoh/guRxFmfRbjv5q980bRYos3KJd6ScT8EoV/dPwz0NQlxf6nO/l6bYgqARz0yscDwbNO2LMOwLoeme2G7puXbBAwDN6yTUQMsWzjZRgvfJAgf/JKIBl0hEP+z4JtyxRLZzqhZkW8R+w93vzTUOgqI3YNsrvzo5Jxkw94yYB58XksWiGwkw5lNBjxeiU8ZfsUmUBJzWbCJI3GE+8FaQVYgckT0bhk8zooDPzCRRpdP8sAjvPxEpAyZG0uIFOGUcaTeybiJgjhM0c+m159nN87f7+fXv09nzmx6N5/dXs+nN/pTGpfzNVY7ZghzLE4WzlMpgQ8MuLrAaBM5eJMDPfJCtpbvPcmSQnZPg62UrwPhs5SVhpy9YiralXMR/T49G0anor3KiYWq/5n+2VRxNnicbi8uCPGBdOjWpRXdViNvgSZbSKhGt0/B+cghEh4axk8Sce5KL9XwKvCB32y303FysUBVM7GOpWLrkQgZOTJwiO87FR7VUsT0nKiz2J6eVXAYC/yCU95HU8cpbSV/Hxn64dU9ZuGdMseU9HdoSbSgKj0Bl9OP+QmzWGgB3iP+0bw4DJWxFjZHb1dkkROMG3LwZEUT9EtU/fQHiyImFpUgujCkDDUglKej1LQi4AxKdCKWhz5TvHklSY3bWqofneemSakL1DLGKstNw3apaYyNEaG+bRieVcnzJphOlLImmFfJ9+OyPUqlyg9QYp3iHLxRzZWDZJTsarAgQUkkN5XrfqCZPUGzFLSaOdpHuWMpy2z4Zled+0LruTMgfkLwG/6hJnmgP1IePKIxn+6NLvH+XYRBLPy6O6kjNCa07Qrtl5zOX1/PJ2kQwn48uyvOySG3l1LImohND95oU9OdwBAMtEQb3dAdTSauRyxKxxdjsMyaN25htGJ7E574jPiSNvV2+WOrcJI2vR3hjCcAbLjk0QBP98dcmK3umM29DR98XIJwEGrocJa+imt2uODMh2Ku32xvHJ1s8/vUjKeXE29kjsfeGF88mPF0CC4xh9aITMYX9uWolvENKPtgyhZmfsg7SL1gFZAON/iSTZ3Xw/41ZRuBlKocnVzDBTa96RYkO7NSONUtaanHBKH2KRDvbrfrtDvAepi+jV+pmB8CSl279kNRuYFcNpoLRPIbju8gUS1rB2dn9zqrKSrZjfXk1xkML0cTarf7EZ20+dEWTDfMs+9FDsyfpDMT25qSQ/WftKZRZxfxAgnXZFJtL/b0P32RYvZOivV6pNgn91xFLnY+SV8C9g3Vu7QJ6bHoKQjgBLTq5TeBhhManqkxquW/YIKvuRtNLgEZ5thr4/maAnOqie+pMU1kpb5/Kq6st2+UPhzW8tbs/KpaTTf9vq3BH5PRyO7otCf1t3UboGfwnn2NOzpnkrYU3Fvojtu3vmdrqatIdlcRBxaxXqNur2SnRd1ay56L+vQqte+XgRYUZ1p/Hv4HGZxDgt0fAAA=&lt;/trigger_inputs&gt;&lt;trigger_outputs/&gt;&lt;trigger_type&gt;record_create&lt;/trigger_type&gt;&lt;updation_source/&gt;&lt;/sys_hub_trigger_instance_v2&gt;&lt;sys_hub_action_instance_v2 action="delete_multiple" query="flow=3e0488b7736787d075f5fb125ab8b762^sys_idNOT IN2514c8b7736787d075f5fb125ab8b74a,ad14c8b7736787d075f5fb125ab8b748,bd14c8b7736787d075f5fb125ab8b74a"/&gt;&lt;sys_hub_action_instance_v2 action="INSERT_OR_UPDATE"&gt;&lt;action_type display_value="Update Record"&gt;f9d01dd2c31332002841b63b12d3aea1&lt;/action_type&gt;&lt;action_type_parent display_value="Update Record"&gt;baf174c8c3c232002841b63b12d3aee4&lt;/action_type_parent&gt;&lt;attributes/&gt;&lt;comment/&gt;&lt;compiled_snapshot&gt;f9d01dd2c31332002841b63b12d3aea1&lt;/compiled_snapshot&gt;&lt;display_text/&gt;&lt;flow display_value="Equipment Request Approval Flow"&gt;3e0488b7736787d075f5fb125ab8b762&lt;/flow&gt;&lt;generation_source/&gt;&lt;order&gt;3&lt;/order&gt;&lt;parent_ui_id&gt;6faece41-8c16-4bf8-82c1-3d819f330b1f&lt;/parent_ui_id&gt;&lt;sys_class_name&gt;sys_hub_action_instance_v2&lt;/sys_class_name&gt;&lt;sys_created_by&gt;Hilder.Ondigo&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-10-02 04:47:08&lt;/sys_created_on&gt;&lt;sys_id&gt;2514c8b7736787d075f5fb125ab8b74a&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_updated_by&gt;Hilder.Ondigo&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-10-02 04:47:08&lt;/sys_updated_on&gt;&lt;ui_id&gt;e7b974be-64b8-447d-850a-68500c4d1406&lt;/ui_id&gt;&lt;updation_source/&gt;&lt;values&gt;H4sIAAAAAAAA/+VVy27iMBT9FeQ1ihJCUcuugkEaqdNKdMSmU0WOfQOWnEf9oGUQ/z7XiRModDpU6qYaVvi+fM7NOcnDlghOxmQIPIyuohGLozgehOHgchiloziNBjymABHpk4LmgJUKWKk4ntdUWhfYbicKqAGeRAGzSkFhdjvMc6ErSTcLX4YRthKSY56MHx77pKIKJxpQZLw9Sp0LSdIUJJbOW0zHGM2mcmdeMpsjrkS0wRvfOfWZ3vcpZrDJwYnCPoEXAwUHBJJRqaFPclpwakq1IWOjLAaQNL8r5KarWInCNERz+qLFb7x5GLq6DJAZ80vojolfUBPOptTQe5zMjFXdvkrBQDc74ZBRK83kMNYU3FVGlEXTYmgq2+5S2ry4bTZCugEHz8NqBAGV4+mQN7Sy+1X5PG9BzkRRr8RTlCWjsjtRY5RIrXFwtgQk1DvOaVWJYplUqlyLuhmh5MFS4iHIZPmMd2qxLALKHO4At0qDGcandXhBlXAkfuAYbN71id7oiaRa76ngDpMn65A0xDyFpN5CvYKkVoJrZkpU5hqvWoMHvut70acX7ymMXe0FdTBzL3ybwJMVVU1a4V/Q5lT239qS3rwr+ZgPzkDZ+uBn/fTfRu2tcBK7Oezt3TYJb4SLTzPC5Vcygqfx5Z3wL/2Hg3ffsAdKqiWvX2lfG2qs/mXDMObXlaMI/FT+f637mAfOQNp6YCZAcv0G9NYAkCNAA0lD5cgEPtlb+GT3Rfg0J0SjsP59IT/8Nx+Gxz81BqW8DwkAAA==&lt;/values&gt;&lt;/sys_hub_action_instance_v2&gt;&lt;sys_hub_alias_mapping action="delete_multiple" query="source_id=2514c8b7736787d075f5fb125ab8b74a"/&gt;&lt;sys_hub_action_instance_v2 action="INSERT_OR_UPDATE"&gt;&lt;action_type display_value="Ask For Approval"&gt;f8f2e9920b10030085c083eb37673abd&lt;/action_type&gt;&lt;action_type_parent display_value="Ask For Approval"&gt;bae0a1120b10030085c083eb37673a92&lt;/action_type_parent&gt;&lt;attributes/&gt;&lt;comment/&gt;&lt;compiled_snapshot&gt;f8f2e9920b10030085c083eb37673abd&lt;/compiled_snapshot&gt;&lt;display_text/&gt;&lt;flow display_value="Equipment Request Approval Flow"&gt;3e0488b7736787d075f5fb125ab8b762&lt;/flow&gt;&lt;generation_source/&gt;&lt;order&gt;1&lt;/order&gt;&lt;parent_ui_id/&gt;&lt;sys_class_name&gt;sys_hub_action_instance_v2&lt;/sys_class_name&gt;&lt;sys_created_by&gt;Hilder.Ondigo&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-10-02 04:47:08&lt;/sys_created_on&gt;&lt;sys_id&gt;ad14c8b7736787d075f5fb125ab8b748&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_updated_by&gt;Hilder.Ondigo&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-10-02 04:47:08&lt;/sys_updated_on&gt;&lt;ui_id&gt;59537296-8e8a-4200-9761-8317cb26b66f&lt;/ui_id&gt;&lt;updation_source/&gt;&lt;values&gt;H4sIAAAAAAAA/+2YTW/bOBCG/0rAs+OlJEuWfQviDdBitwWStJc4ECiSSljQkipSab2C/3tHIvVRO3GdXeeQTS+GOZyh3hk/Q4q+qZBgaI6mYeLy2czFsYOxh3HoUxx6PPamwdQjFKMRSsmKg2fBaVYwGD8QWdaGqjovONGcRc6YlkXBU73ZwDwTKpdk/dm6gYXeC8lgHs1vbkcoJwWsqHmB5tXW1KGSJIm5BNfLVtO2Rr3O6zHLaLkCXZFojX/ZyIWdOXm3gBkIquXgEeLfNU8ZBx0JkYqP0IqkjOisWKO5LkowQM7sYyrXnce9SLXJc0W+K/EPPNhza7+EQ2LU1qAbRrY+xpwsiCZXsDLVZdGVKxOUK1MSxhNSSn0+tBmHj7kWWWpCNIllG53JcpV+MAVB3QKDn6NUIILndZ61cpNWcnWffbtsRV6ItKmITVFmlMhuRLQuRFzqWk6FuORNiVckz0V6F+VF9iCaYJCyGt9JGIwTmX2DZypxl44JrXWPoapkfAH2RWP+TApRJ/E3LAPBmxFSa3UuiVJ9KlDD6GtZKzGJ2RSipgqmBHUcLUSuz+ApD9xq3ows7jHdyxbtUTLL9bSXEf9airxJtYCvXOld1v9sXU4uO5fnwX+AwBb+a6twS7BFvxlGzdzP5DdhJx/MhAXf2Q++tfTkG2QeAT/Erwh8m9arJ/9X0PNJ4PnwMU087LgODnkQhnSGCQ2DwJ94PUOgAHIgEggnCtbu8T/Cvn6AjBbtM6sD2sjqeFKgxV3BD5PebaF+1Rot5u4zMX96g3eCtwR6Ka63qmwsO3V+mY6oH/cpFbChvqs5Ctw4mOGQnbIEx6eT0PNPCeX4lAeOz30WUN/xXqCLsLNvZ2bhI5Amgkt23CY6QMVOE11YGU/Jsy3UDB87MZr4rRPjeK0UYvyaeuktvS3RvbDxwcHxJSuL9GWIP0BES/x7o2Ib+G1x/4Z37zfv/3/eJ/5e1AYv290eSrOUiVqxGlBvdl6uztL1p5uqUppoQcdwLE0d36M0cBzXnVLgII6ZE7OQMhdjf7O53W2X/7LU8/rsgOS7a3cpufpVMWyX9W9sNmjYaf17np203TY51kX8lTXbW7mR0L2sJbOeLVZCgYge3sSrJTKyl2i+RGmW8iUaLVHtFdVwNWbwAHHdRGOrNmZcFsSGO4NhH8vIWjWeit5zBmQ21p8sUdMK1n6MP70OqEjbfYuSnyxMSXaL1F6HWp2mKmLnjLuyDs1Kf1yL4VnnH+2sm/xuvmNcfqJ2E60PMtj7jtiRtz8AP/FN/gkWAAA=&lt;/values&gt;&lt;/sys_hub_action_instance_v2&gt;&lt;sys_hub_alias_mapping action="delete_multiple" query="source_id=ad14c8b7736787d075f5fb125ab8b748"/&gt;&lt;sys_hub_action_instance_v2 action="INSERT_OR_UPDATE"&gt;&lt;action_type display_value="Update Record"&gt;f9d01dd2c31332002841b63b12d3aea1&lt;/action_type&gt;&lt;action_type_parent display_value="Update Record"&gt;baf174c8c3c232002841b63b12d3aee4&lt;/action_type_parent&gt;&lt;attributes/&gt;&lt;comment/&gt;&lt;compiled_snapshot&gt;f9d01dd2c31332002841b63b12d3aea1&lt;/compiled_snapshot&gt;&lt;display_text/&gt;&lt;flow display_value="Equipment Request Approval Flow"&gt;3e0488b7736787d075f5fb125ab8b762&lt;/flow&gt;&lt;generation_source/&gt;&lt;order&gt;5&lt;/order&gt;&lt;parent_ui_id&gt;7e27fbf5-83a3-441f-879a-413e9dfdcb94&lt;/parent_ui_id&gt;&lt;sys_class_name&gt;sys_hub_action_instance_v2&lt;/sys_class_name&gt;&lt;sys_created_by&gt;Hilder.Ondigo&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-10-02 04:47:08&lt;/sys_created_on&gt;&lt;sys_id&gt;bd14c8b7736787d075f5fb125ab8b74a&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_updated_by&gt;Hilder.Ondigo&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-10-02 04:47:08&lt;/sys_updated_on&gt;&lt;ui_id&gt;e03c596b-ef0c-43b9-850d-dc22d7fa92e1&lt;/ui_id&gt;&lt;updation_source/&gt;&lt;values&gt;H4sIAAAAAAAA/+VVy27iMBT9FeQ1ihJCUcuugkEaqdOO6KibThU59g1Ych71g5ZB/PtcJ05goGqp1A0aVvi+fM7JPcnjhghOxmQIPIyuohGLozgehOHgchiloziNBjymABHpk4LmgJUKWKk4nldUWhfYbCYKqAGeRAGzSkFhtlvMc6ErSdcPvgwjbCkkxzwZPz71SUUVTjSgyHhzkDoVkqQpSCydt5gOMZp15c68ZDZHXIlogze+c+ozve9TzGCTgxOFfQKvBgoOCCSjUkOf5LTg1JRqTcZGWQwgaX5XyHVXsRSFaYjm9FWLP3jzMHR1GSAz5kXojokXqAlnU2roPU5mxqpOr1Iw0I0mHDJqpZnsx5qCu8qIsmhaDE1l211Kmxe3jSKkG7D3PKxGEFA5ng55Qyu7X5Yv8xbkTBS1JJ6iLBmV3Ykao0RqjYOzISCh1jinVSWKRVKpciXqZoSSBwuJhyCT5QveqcWiCChzuANUlQYzjE/r8ANVwpH4gWOwedsneq0nkmq9o4IaJs/WIWmIeQpJrUItQVJvgmtmSlTmGq9agQe+7fulTy/e2zB2tVuovZm7xbcJPFtR1aQV/gVtjtf+W1vSm3cln/PBCShbH/yqn/7bqL0VjmI3+7292ybhjXDxZUa4PCcjeBpn74SP9j8cvPuG3dukeuX1P7uvDTVW/7ZhGPOfeCsS7V1XjiqiObLBh/Wf88QJyFtPzARIrt+g0hoCcgRqIGmoHZjCJ3sPPtl9Ib7MGdEorH9n5I//5kPx9BdzVyIxHwkAAA==&lt;/values&gt;&lt;/sys_hub_action_instance_v2&gt;&lt;sys_hub_alias_mapping action="delete_multiple" query="source_id=bd14c8b7736787d075f5fb125ab8b74a"/&gt;&lt;sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=3e0488b7736787d075f5fb125ab8b762"/&gt;&lt;sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=3e0488b7736787d075f5fb125ab8b762^sys_idNOT IN5114c8b7736787d075f5fb125ab8b747,5d14c8b7736787d075f5fb125ab8b744"/&gt;&lt;sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE"&gt;&lt;attributes/&gt;&lt;block display_value=""&gt;b7b300b7736787d075f5fb125ab8b7bd&lt;/block&gt;&lt;comment/&gt;&lt;connected_to&gt;6faece41-8c16-4bf8-82c1-3d819f330b1f&lt;/connected_to&gt;&lt;decision_table/&gt;&lt;display_text/&gt;&lt;flow display_value="Equipment Request Approval Flow"&gt;3e0488b7736787d075f5fb125ab8b762&lt;/flow&gt;&lt;flow_variables_assigned/&gt;&lt;generation_source/&gt;&lt;logic_definition display_value="Else"&gt;1f781bf3c32232002841b63b12d3aee6&lt;/logic_definition&gt;&lt;order&gt;4&lt;/order&gt;&lt;outputs_assigned/&gt;&lt;parent_ui_id/&gt;&lt;sys_class_name&gt;sys_hub_flow_logic_instance_v2&lt;/sys_class_name&gt;&lt;sys_created_by&gt;Hilder.Ondigo&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-10-02 04:47:07&lt;/sys_created_on&gt;&lt;sys_id&gt;5114c8b7736787d075f5fb125ab8b747&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_scope/&gt;&lt;sys_updated_by&gt;Hilder.Ondigo&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-10-02 04:47:07&lt;/sys_updated_on&gt;&lt;ui_id&gt;7e27fbf5-83a3-441f-879a-413e9dfdcb94&lt;/ui_id&gt;&lt;updation_source/&gt;&lt;values&gt;H4sIAAAAAAAA/6tWyi8tKSgtKQ7JdywuzkzPU7KKjtVRyswDiUHYZYlFmYlJOalQbkpqcmZxZn5eCEjME0ldSmVeYm5mMrJQeX5RdlpOfjlCrBYAD1ouqHEAAAA=&lt;/values&gt;&lt;workflow_reference/&gt;&lt;/sys_hub_flow_logic_instance_v2&gt;&lt;sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE"&gt;&lt;attributes/&gt;&lt;block display_value=""&gt;23b300b7736787d075f5fb125ab8b7b9&lt;/block&gt;&lt;comment/&gt;&lt;connected_to/&gt;&lt;decision_table/&gt;&lt;display_text/&gt;&lt;flow display_value="Equipment Request Approval Flow"&gt;3e0488b7736787d075f5fb125ab8b762&lt;/flow&gt;&lt;flow_variables_assigned/&gt;&lt;generation_source/&gt;&lt;logic_definition display_value="If"&gt;af4e1945c3e232002841b63b12d3ae3e&lt;/logic_definition&gt;&lt;order&gt;2&lt;/order&gt;&lt;outputs_assigned/&gt;&lt;parent_ui_id/&gt;&lt;sys_class_name&gt;sys_hub_flow_logic_instance_v2&lt;/sys_class_name&gt;&lt;sys_created_by&gt;Hilder.Ondigo&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-10-02 04:47:06&lt;/sys_created_on&gt;&lt;sys_id&gt;5d14c8b7736787d075f5fb125ab8b744&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_scope/&gt;&lt;sys_updated_by&gt;Hilder.Ondigo&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-10-02 04:47:07&lt;/sys_updated_on&gt;&lt;ui_id&gt;6faece41-8c16-4bf8-82c1-3d819f330b1f&lt;/ui_id&gt;&lt;updation_source/&gt;&lt;values&gt;H4sIAAAAAAAA/+1VyW7bMBD9lYBnWdBiycvNcBAgQNoATZBLGwgjkrKJUqQqUnZcw//eoRbbSB20QXPszXyzvXmaB++JbmzVWPOoF8aIlSLzr88eEcph+HtPFJSczAnVigkrtMpawCMbkI0L3BZXi6qq9YYzRJkwlYTd08UgXQvJat7PqKDGTpbXZL5/FRIMa4sAinBGQxpHaRwFQTQdh3ka52HEYuAQY0MJOZeYuhzIXd21iPcma7urHG5sLdSqf9/1XR4GUNfMsQoDj/AXyxVD9vMCpOEeKUExsLreHZGaA7tX8gSshbLYjrjkFyN+4sAoSVxiwXFFyrvg8Zn1onVwcQ0WkEpDbVP3qXStBeWmE4fxAhppl+dYl3BfuVW7Egu5HKq1bEr1uVOEHBsM3wiRxiAJXrlNHfV+j+JhrbdfBpY3QrWq9EGpKcjjCyxqlzfW8dkTLnmJjbISqgoVzdwBiLYYuZT+SuLDL6Te4lB3cz5QR9xHYcG/Qfy6hZ+gFm6LT9gGizuaORhBs/Y+sR3KxMnBI2ZnlhKMOS2J6mY/GkexW7lfLuv0cSW0FpVd4OQN7/c4eL+f+9ml7/fJLIkn0SwdTfkURmM8ytFskoajaRxOaB6leZoWPrQHDzIzFiw/HL41QRAzeNMjH9X2fe6aQVIkYZBcdtc4veSuC756p6WiP1jKfc+/dFQQBP8t9c+WEibrjNDv1g7/QEc9O/t0M49aU2GQ2qPDbof/GRfY4XEJeg5tdf3dLXXCDr8AgrgZb7EGAAA=&lt;/values&gt;&lt;workflow_reference/&gt;&lt;/sys_hub_flow_logic_instance_v2&gt;&lt;sys_hub_pill_compound action="delete_multiple" query="attached_to=3e0488b7736787d075f5fb125ab8b762"/&gt;&lt;sys_hub_flow_variable action="delete_multiple" query="model=3e0488b7736787d075f5fb125ab8b762"/&gt;&lt;sys_documentation action="INSERT_OR_UPDATE"&gt;&lt;element&gt;current&lt;/element&gt;&lt;help/&gt;&lt;hint/&gt;&lt;label&gt;Record&lt;/label&gt;&lt;language&gt;en&lt;/language&gt;&lt;name&gt;var__m_sys_hub_flow_input_3e0488b7736787d075f5fb125ab8b762&lt;/name&gt;&lt;plural/&gt;&lt;sys_class_name&gt;sys_documentation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;Hilder.Ondigo&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-10-02 04:47:00&lt;/sys_created_on&gt;&lt;sys_id&gt;bb0488b7736787d075f5fb125ab8b78c&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;Hilder.Ondigo&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-10-02 04:47:00&lt;/sys_updated_on&gt;&lt;url/&gt;&lt;url_target/&gt;&lt;/sys_documentation&gt;&lt;sys_documentation action="INSERT_OR_UPDATE"&gt;&lt;element&gt;table_name&lt;/element&gt;&lt;help/&gt;&lt;hint/&gt;&lt;label&gt;Table Name&lt;/label&gt;&lt;language&gt;en&lt;/language&gt;&lt;name&gt;var__m_sys_hub_flow_input_3e0488b7736787d075f5fb125ab8b762&lt;/name&gt;&lt;plural/&gt;&lt;sys_class_name&gt;sys_documentation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;Hilder.Ondigo&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-10-02 04:47:03&lt;/sys_created_on&gt;&lt;sys_id&gt;e014c8b7736787d075f5fb125ab8b707&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;Hilder.Ondigo&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-10-02 04:47:03&lt;/sys_updated_on&gt;&lt;url/&gt;&lt;url_target/&gt;&lt;/sys_documentation&gt;&lt;sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_3e0488b7736787d075f5fb125ab8b762"/&gt;&lt;sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_3e0488b7736787d075f5fb125ab8b762"/&gt;&lt;sys_hub_flow action="UPDATE"&gt;&lt;sys_id&gt;8d6e33ab732787d075f5fb125ab8b7d5&lt;/sys_id&gt;&lt;latest_snapshot&gt;3e0488b7736787d075f5fb125ab8b762&lt;/latest_snapshot&gt;&lt;compiler_build/&gt;&lt;version_record/&gt;&lt;/sys_hub_flow&gt;&lt;sys_flow_trigger_plan action="delete_multiple" query="plan_id=8d6e33ab732787d075f5fb125ab8b7d5^sys_idNOT INff140cb7736787d075f5fb125ab8b7ab"/&gt;&lt;sys_flow_trigger_plan action="INSERT_OR_UPDATE"&gt;&lt;binding_strategy&gt;com.snc.process_flow.engine.binding.OncePerRecord&lt;/binding_strategy&gt;&lt;plan/&gt;&lt;plan_id&gt;8d6e33ab732787d075f5fb125ab8b7d5&lt;/plan_id&gt;&lt;snapshot&gt;3e0488b7736787d075f5fb125ab8b762&lt;/snapshot&gt;&lt;sys_created_by&gt;Hilder.Ondigo&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-10-02 04:47:17&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;ff140cb7736787d075f5fb125ab8b7ab&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_overrides/&gt;&lt;sys_scope/&gt;&lt;sys_updated_by&gt;Hilder.Ondigo&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-10-02 04:47:17&lt;/sys_updated_on&gt;&lt;trigger display_value=""&gt;b3140cb7736787d075f5fb125ab8b7a9&lt;/trigger&gt;&lt;/sys_flow_trigger_plan&gt;&lt;sys_flow_subflow_plan action="delete_multiple" query="plan_id=8d6e33ab732787d075f5fb125ab8b7d5"/&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-1632390243</payload_hash>
+<remote_update_set display_value="Equipment_Request_Application">7c56c4f7736787d075f5fb125ab8b7b4</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>Hilder.Ondigo</sys_created_by>
+<sys_created_on>2026-10-02 04:56:56</sys_created_on>
+<sys_id>8556c4f7736787d075f5fb125ab8b7ba</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a0faf0543f0000001</sys_recorded_at>
+<sys_updated_by>Hilder.Ondigo</sys_updated_by>
+<sys_updated_on>2026-10-02 04:56:56</sys_updated_on>
+<table/>
+<target_name>Equipment Request Approval Flow</target_name>
+<type>Flow</type>
+<update_domain>global</update_domain>
+<update_guid>36244cb7b56787d0d03352650826658d</update_guid>
+<update_guid_history>36244cb7b56787d0d03352650826658d:-1632390243,540408b7696787d0ac61e5b764c96683:-666954318,bdc340b76f6787d014c16094109a4276:1136436431,835384777f6787d0f4bc8439d394555b:-18257946,7a138c377d6787d0f1aaf4d4c5ea5085:-847912572,2ea28037716787d0deb0c28c3042d6ee:857929756,f6e14cb3bb6787d0d70ad09b98729cd7:-1088835426,7f6100b3c36787d050734034092bab95:2147011947,2df0c073196787d0dc57ce478457df28:-670982816,ab508033986787d0b6cadb56b97511d0:1738857590,cc0008ff692787d0c279436c0d8d47c4:-1370532052,8a3fff6fa72787d073bc95f0db624ad1:-1079614285,26de776fd72787d052db018d0d412d3d:662966516,1daeff2f022787d0e0af40e7bc9fbd3a:-1690300427,e96ef72fd72787d020dfec1ff4e84534:-722543453</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_f8c633af73e387d075f5fb125ab8b756</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><applies_to/><condition/><controlled_by_refs/><decision_type>allow</decision_type><description>Default access control on u_equipment_request</description><local_or_existing>Existing</local_or_existing><name>u_equipment_request</name><operation display_value="create">create</operation><script/><security_attribute/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>Hilder.Ondigo</sys_created_by><sys_created_on>2026-10-02 03:48:55</sys_created_on><sys_id>f8c633af73e387d075f5fb125ab8b756</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_equipment_request</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_security_acl_f8c633af73e387d075f5fb125ab8b756</sys_update_name><sys_updated_by>Hilder.Ondigo</sys_updated_by><sys_updated_on>2026-10-02 03:48:55</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+<payload_hash>161104943</payload_hash>
+<remote_update_set display_value="Equipment_Request_Application">7c56c4f7736787d075f5fb125ab8b7b4</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>Hilder.Ondigo</sys_created_by>
+<sys_created_on>2026-10-02 04:56:56</sys_created_on>
+<sys_id>9956c4f7736787d075f5fb125ab8b7bb</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a0fabad63d0000001</sys_recorded_at>
+<sys_updated_by>Hilder.Ondigo</sys_updated_by>
+<sys_updated_on>2026-10-02 04:56:56</sys_updated_on>
+<table>u_equipment_request</table>
+<target_name>u_equipment_request</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid>7ac673af39e387d0b53f0e874a7ec2c7</update_guid>
+<update_guid_history>7ac673af39e387d0b53f0e874a7ec2c7:161104943</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_role_ecd6f3af73e387d075f5fb125ab8b77b</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>Hilder.Ondigo</sys_created_by><sys_created_on>2026-10-02 03:49:10</sys_created_on><sys_id>ecd6f3af73e387d075f5fb125ab8b77b</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_equipment_request.u_equipment_request_user</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_security_acl display_value="u_equipment_request">10d6f3af73e387d075f5fb125ab8b744</sys_security_acl><sys_update_name>sys_security_acl_role_ecd6f3af73e387d075f5fb125ab8b77b</sys_update_name><sys_updated_by>Hilder.Ondigo</sys_updated_by><sys_updated_on>2026-10-02 03:49:10</sys_updated_on><sys_user_role display_value="u_equipment_request_user" name="u_equipment_request_user">2aa6bfeb73e387d075f5fb125ab8b76e</sys_user_role></sys_security_acl_role></record_update>]]></payload>
+<payload_hash>2063241994</payload_hash>
+<remote_update_set display_value="Equipment_Request_Application">7c56c4f7736787d075f5fb125ab8b7b4</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>Hilder.Ondigo</sys_created_by>
+<sys_created_on>2026-10-02 04:56:57</sys_created_on>
+<sys_id>9d56c8bb736787d075f5fb125ab8b70a</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a0fabaf4700000001</sys_recorded_at>
+<sys_updated_by>Hilder.Ondigo</sys_updated_by>
+<sys_updated_on>2026-10-02 04:56:57</sys_updated_on>
+<table>u_equipment_request</table>
+<target_name>u_equipment_request.u_equipment_request_user</target_name>
+<type>Access Roles</type>
+<update_domain>global</update_domain>
+<update_guid>70d6f3af18e387d0272719a66f929684</update_guid>
+<update_guid_history>70d6f3af18e387d0272719a66f929684:2063241994</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_user_role_2aa6bfeb73e387d075f5fb125ab8b76e</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role"><sys_user_role action="INSERT_OR_UPDATE"><assignable_by/><can_delegate>true</can_delegate><description/><elevated_privilege>false</elevated_privilege><federated_id/><grantable>true</grantable><includes_roles/><name>u_equipment_request_user</name><scoped_admin>false</scoped_admin><suffix/><sys_class_name>sys_user_role</sys_class_name><sys_created_by>Hilder.Ondigo</sys_created_by><sys_created_on>2026-10-02 03:48:29</sys_created_on><sys_id>2aa6bfeb73e387d075f5fb125ab8b76e</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_equipment_request_user</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_user_role_2aa6bfeb73e387d075f5fb125ab8b76e</sys_update_name><sys_updated_by>Hilder.Ondigo</sys_updated_by><sys_updated_on>2026-10-02 03:48:29</sys_updated_on></sys_user_role></record_update>]]></payload>
+<payload_hash>1711202354</payload_hash>
+<remote_update_set display_value="Equipment_Request_Application">7c56c4f7736787d075f5fb125ab8b7b4</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>Hilder.Ondigo</sys_created_by>
+<sys_created_on>2026-10-02 04:56:57</sys_created_on>
+<sys_id>a156c8bb736787d075f5fb125ab8b70c</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a0faba55de0000001</sys_recorded_at>
+<sys_updated_by>Hilder.Ondigo</sys_updated_by>
+<sys_updated_on>2026-10-02 04:56:57</sys_updated_on>
+<table/>
+<target_name>u_equipment_request_user</target_name>
+<type>Role</type>
+<update_domain>global</update_domain>
+<update_guid>32a6bf6fdfe387d0efdda29181a95527</update_guid>
+<update_guid_history>32a6bf6fdfe387d0efdda29181a95527:1711202354</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_app_application_2ab6ff6f73e387d075f5fb125ab8b7e2</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application"><sys_app_application action="INSERT_OR_UPDATE"><active>true</active><category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category><description/><device_type>browser</device_type><hint/><name>Equipment Request</name><order>100</order><roles>u_equipment_request_user</roles><sys_class_name>sys_app_application</sys_class_name><sys_created_by>Hilder.Ondigo</sys_created_by><sys_created_on>2026-10-02 03:48:45</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>2ab6ff6f73e387d075f5fb125ab8b7e2</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Equipment Request</sys_name><sys_overrides/><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_app_application_2ab6ff6f73e387d075f5fb125ab8b7e2</sys_update_name><sys_updated_by>Hilder.Ondigo</sys_updated_by><sys_updated_on>2026-10-02 03:48:45</sys_updated_on><title>Equipment Request</title><view_name/></sys_app_application></record_update>]]></payload>
+<payload_hash>-1691682048</payload_hash>
+<remote_update_set display_value="Equipment_Request_Application">7c56c4f7736787d075f5fb125ab8b7b4</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>Hilder.Ondigo</sys_created_by>
+<sys_created_on>2026-10-02 04:56:54</sys_created_on>
+<sys_id>b056c4f7736787d075f5fb125ab8b7b5</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a0faba94230000001</sys_recorded_at>
+<sys_updated_by>Hilder.Ondigo</sys_updated_by>
+<sys_updated_on>2026-10-02 04:56:54</sys_updated_on>
+<table/>
+<target_name>Equipment Request</target_name>
+<type>Application Menu</type>
+<update_domain>global</update_domain>
+<update_guid>b6b6ff6f49e387d0348459ead4b67ee8</update_guid>
+<update_guid_history>b6b6ff6f49e387d0348459ead4b67ee8:-1691682048</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_choice_u_equipment_request_u_status</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_choice action="INSERT_OR_UPDATE" field="u_status" table="u_equipment_request" version="3"><sys_choice_set action="INSERT_OR_UPDATE"><element>u_status</element><name>u_equipment_request</name><sys_class_name>sys_choice_set</sys_class_name><sys_created_by>Hilder.Ondigo</sys_created_by><sys_created_on>2026-10-02 04:09:04</sys_created_on><sys_id>406bbfa7732787d075f5fb125ab8b73d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_status</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_choice_u_equipment_request_u_status</sys_update_name><sys_updated_by>Hilder.Ondigo</sys_updated_by><sys_updated_on>2026-10-02 04:09:04</sys_updated_on></sys_choice_set><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>u_status</element><hint/><inactive>false</inactive><label>Approved</label><language>en</language><name>u_equipment_request</name><sequence/><synonyms/><sys_created_by>Hilder.Ondigo</sys_created_by><sys_created_on>2026-10-02 04:11:07</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>99cbfba7732787d075f5fb125ab8b77f</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>Hilder.Ondigo</sys_updated_by><sys_updated_on>2026-10-02 04:11:07</sys_updated_on><value>Approved</value></sys_choice><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>u_status</element><hint/><inactive>false</inactive><label>New</label><language>en</language><name>u_equipment_request</name><sequence/><synonyms/><sys_created_by>Hilder.Ondigo</sys_created_by><sys_created_on>2026-10-02 04:09:04</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>834bfba7732787d075f5fb125ab8b778</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>Hilder.Ondigo</sys_updated_by><sys_updated_on>2026-10-02 04:09:04</sys_updated_on><value>New</value></sys_choice><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>u_status</element><hint/><inactive>false</inactive><label>Pending Approval</label><language>en</language><name>u_equipment_request</name><sequence/><synonyms/><sys_created_by>Hilder.Ondigo</sys_created_by><sys_created_on>2026-10-02 04:10:06</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>c68bbfa7732787d075f5fb125ab8b72e</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>Hilder.Ondigo</sys_updated_by><sys_updated_on>2026-10-02 04:10:06</sys_updated_on><value>Pending Approval</value></sys_choice></sys_choice></record_update>]]></payload>
+<payload_hash>-1883457891</payload_hash>
+<remote_update_set display_value="Equipment_Request_Application">7c56c4f7736787d075f5fb125ab8b7b4</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>Hilder.Ondigo</sys_created_by>
+<sys_created_on>2026-10-02 04:56:54</sys_created_on>
+<sys_id>b856c4f7736787d075f5fb125ab8b7b6</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a0facf0b5b0000001</sys_recorded_at>
+<sys_updated_by>Hilder.Ondigo</sys_updated_by>
+<sys_updated_on>2026-10-02 04:56:54</sys_updated_on>
+<table>u_equipment_request</table>
+<target_name>Equipment Request.Status</target_name>
+<type>Choice list</type>
+<update_domain>global</update_domain>
+<update_guid>02db33e78c2787d04ad4b6f33cc18ce5</update_guid>
+<update_guid_history>02db33e78c2787d04ad4b6f33cc18ce5:-1883457891,479b73e79a2787d0e2409125a582d89a:771806989,d86bbfa7812787d0642751ee4d090e3f:-629616235</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_u_equipment_request_u_item_needed</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="u_item_needed" table="u_equipment_request"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice&gt;1&lt;/choice&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;Item needed&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;u_item_needed&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;internal_type display_value="Choice"&gt;choice&lt;/internal_type&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;40&lt;/max_length&gt;&lt;name&gt;u_equipment_request&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_only_option/&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;Hilder.Ondigo&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-10-02 03:48:38&lt;/sys_created_on&gt;&lt;sys_id&gt;3165f3ab73e387d075f5fb125ab8b7ee&lt;/sys_id&gt;&lt;sys_name&gt;Item needed&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_u_equipment_request_u_item_needed&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;Hilder.Ondigo&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-10-02 03:48:38&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<payload_hash>613259322</payload_hash>
+<remote_update_set display_value="Equipment_Request_Application">7c56c4f7736787d075f5fb125ab8b7b4</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>Hilder.Ondigo</sys_created_by>
+<sys_created_on>2026-10-02 04:56:55</sys_created_on>
+<sys_id>bc56c4f7736787d075f5fb125ab8b7b7</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a0faba7e560000001</sys_recorded_at>
+<sys_updated_by>Hilder.Ondigo</sys_updated_by>
+<sys_updated_on>2026-10-02 04:56:55</sys_updated_on>
+<table>u_equipment_request</table>
+<target_name>u_equipment_request.u_item_needed</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>d9b6ff6f48e387d09dd5c084ad891d4c</update_guid>
+<update_guid_history>d9b6ff6f48e387d09dd5c084ad891d4c:613259322</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_u_equipment_request_u_requested_for_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="u_requested_for" label="Requested For" language="en" table="u_equipment_request"><sys_documentation action="INSERT_OR_UPDATE"><element>u_requested_for</element><help/><hint/><label>Requested For</label><language>en</language><name>u_equipment_request</name><plural>Requested Fors</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>Hilder.Ondigo</sys_created_by><sys_created_on>2026-10-02 03:49:26</sys_created_on><sys_id>28e677af73e387d075f5fb125ab8b70d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Requested For</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_documentation_u_equipment_request_u_requested_for_en</sys_update_name><sys_updated_by>Hilder.Ondigo</sys_updated_by><sys_updated_on>2026-10-02 03:49:26</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>2080045309</payload_hash>
+<remote_update_set display_value="Equipment_Request_Application">7c56c4f7736787d075f5fb125ab8b7b4</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>Hilder.Ondigo</sys_created_by>
+<sys_created_on>2026-10-02 04:56:55</sys_created_on>
+<sys_id>c556c4f7736787d075f5fb125ab8b7b9</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a0fabb5ab80000001</sys_recorded_at>
+<sys_updated_by>Hilder.Ondigo</sys_updated_by>
+<sys_updated_on>2026-10-02 04:56:55</sys_updated_on>
+<table>u_equipment_request</table>
+<target_name>Equipment Request.Requested For</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>cbe6b7af74e387d09bea2c1a0651f1a0</update_guid>
+<update_guid_history>cbe6b7af74e387d09bea2c1a0651f1a0:2080045309</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_application_8bb633af73e387d075f5fb125ab8b73d</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_application"><sys_ui_application action="INSERT_OR_UPDATE"><active>true</active><hint/><name>Equipment Request</name><order/><roles>u_equipment_request_user</roles><sys_class_name>sys_ui_application</sys_class_name><sys_created_by>Hilder.Ondigo</sys_created_by><sys_created_on>2026-10-02 03:48:48</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>8bb633af73e387d075f5fb125ab8b73d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Equipment Request</sys_name><sys_overrides/><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_ui_application_8bb633af73e387d075f5fb125ab8b73d</sys_update_name><sys_updated_by>Hilder.Ondigo</sys_updated_by><sys_updated_on>2026-10-02 03:48:48</sys_updated_on></sys_ui_application></record_update>]]></payload>
+<payload_hash>-406634451</payload_hash>
+<remote_update_set display_value="Equipment_Request_Application">7c56c4f7736787d075f5fb125ab8b7b4</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>Hilder.Ondigo</sys_created_by>
+<sys_created_on>2026-10-02 04:56:57</sys_created_on>
+<sys_id>d156c8bb736787d075f5fb125ab8b70b</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a0faba9e960000001</sys_recorded_at>
+<sys_updated_by>Hilder.Ondigo</sys_updated_by>
+<sys_updated_on>2026-10-02 04:56:57</sys_updated_on>
+<table/>
+<target_name>Equipment Request</target_name>
+<type>Application Menu</type>
+<update_domain>global</update_domain>
+<update_guid>d3b633afb8e387d0d2ef740279651541</update_guid>
+<update_guid_history>d3b633afb8e387d0d2ef740279651541:-406634451</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_10d6f3af73e387d075f5fb125ab8b744</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><applies_to/><condition/><controlled_by_refs/><decision_type>allow</decision_type><description>Default access control on u_equipment_request</description><local_or_existing>Existing</local_or_existing><name>u_equipment_request</name><operation display_value="write">write</operation><script/><security_attribute/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>Hilder.Ondigo</sys_created_by><sys_created_on>2026-10-02 03:49:09</sys_created_on><sys_id>10d6f3af73e387d075f5fb125ab8b744</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_equipment_request</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_security_acl_10d6f3af73e387d075f5fb125ab8b744</sys_update_name><sys_updated_by>Hilder.Ondigo</sys_updated_by><sys_updated_on>2026-10-02 03:49:09</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+<payload_hash>-1118741761</payload_hash>
+<remote_update_set display_value="Equipment_Request_Application">7c56c4f7736787d075f5fb125ab8b7b4</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>Hilder.Ondigo</sys_created_by>
+<sys_created_on>2026-10-02 04:56:56</sys_created_on>
+<sys_id>d956c4f7736787d075f5fb125ab8b7ba</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a0fabaf0980000001</sys_recorded_at>
+<sys_updated_by>Hilder.Ondigo</sys_updated_by>
+<sys_updated_on>2026-10-02 04:56:56</sys_updated_on>
+<table>u_equipment_request</table>
+<target_name>u_equipment_request</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid>60d6f3afbee387d000b5e602355ff27a</update_guid>
+<update_guid_history>60d6f3afbee387d000b5e602355ff27a:-1118741761</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_role_4cd6f3af73e387d075f5fb125ab8b739</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>Hilder.Ondigo</sys_created_by><sys_created_on>2026-10-02 03:49:08</sys_created_on><sys_id>4cd6f3af73e387d075f5fb125ab8b739</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_equipment_request.u_equipment_request_user</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_security_acl display_value="u_equipment_request">7fc6b3af73e387d075f5fb125ab8b7aa</sys_security_acl><sys_update_name>sys_security_acl_role_4cd6f3af73e387d075f5fb125ab8b739</sys_update_name><sys_updated_by>Hilder.Ondigo</sys_updated_by><sys_updated_on>2026-10-02 03:49:08</sys_updated_on><sys_user_role display_value="u_equipment_request_user" name="u_equipment_request_user">2aa6bfeb73e387d075f5fb125ab8b76e</sys_user_role></sys_security_acl_role></record_update>]]></payload>
+<payload_hash>404463989</payload_hash>
+<remote_update_set display_value="Equipment_Request_Application">7c56c4f7736787d075f5fb125ab8b7b4</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>Hilder.Ondigo</sys_created_by>
+<sys_created_on>2026-10-02 04:56:56</sys_created_on>
+<sys_id>dd56c4f7736787d075f5fb125ab8b7bb</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a0fabaee2c0000001</sys_recorded_at>
+<sys_updated_by>Hilder.Ondigo</sys_updated_by>
+<sys_updated_on>2026-10-02 04:56:56</sys_updated_on>
+<table>u_equipment_request</table>
+<target_name>u_equipment_request.u_equipment_request_user</target_name>
+<type>Access Roles</type>
+<update_domain>global</update_domain>
+<update_guid>dcd6f3af62e387d08952d58763733a41</update_guid>
+<update_guid_history>dcd6f3af62e387d08952d58763733a41:404463989</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_u_equipment_request_u_requested_for</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="u_requested_for" table="u_equipment_request"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;Requested For&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;u_requested_for&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;internal_type display_value="Reference"&gt;reference&lt;/internal_type&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;32&lt;/max_length&gt;&lt;name&gt;u_equipment_request&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_only_option/&gt;&lt;read_roles/&gt;&lt;reference display_value="" name="sys_user"&gt;sys_user&lt;/reference&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;Hilder.Ondigo&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-10-02 03:48:35&lt;/sys_created_on&gt;&lt;sys_id&gt;678437ab73e387d075f5fb125ab8b72a&lt;/sys_id&gt;&lt;sys_name&gt;Requested For&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_u_equipment_request_u_requested_for&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;Hilder.Ondigo&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-10-02 03:48:35&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<payload_hash>600559707</payload_hash>
+<remote_update_set display_value="Equipment_Request_Application">7c56c4f7736787d075f5fb125ab8b7b4</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>Hilder.Ondigo</sys_created_by>
+<sys_created_on>2026-10-02 04:56:55</sys_created_on>
+<sys_id>f056c4f7736787d075f5fb125ab8b7b8</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a0faba70940000001</sys_recorded_at>
+<sys_updated_by>Hilder.Ondigo</sys_updated_by>
+<sys_updated_on>2026-10-02 04:56:55</sys_updated_on>
+<table>u_equipment_request</table>
+<target_name>u_equipment_request.u_requested_for</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>60b6ff6f17e387d0e94c025383cc2211</update_guid>
+<update_guid_history>60b6ff6f17e387d0e94c025383cc2211:600559707</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_db_object_a584f3ab73e387d075f5fb125ab8b73e</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object"><sys_db_object action="INSERT_OR_UPDATE"><access>public</access><actions_access>false</actions_access><alter_access>false</alter_access><caller_access/><client_scripts_access>false</client_scripts_access><configuration_access>false</configuration_access><create_access>false</create_access><create_access_controls>true</create_access_controls><delete_access>false</delete_access><filter_extension/><is_data_interface>false</is_data_interface><is_df_table>false</is_df_table><is_extendable>false</is_extendable><label>Equipment Request</label><live_feed_enabled>false</live_feed_enabled><name>u_equipment_request</name><number_ref/><provider_class/><read_access>true</read_access><scriptable_table>false</scriptable_table><super_class/><sys_class_name>sys_db_object</sys_class_name><sys_created_by>Hilder.Ondigo</sys_created_by><sys_created_on>2026-10-02 03:48:44</sys_created_on><sys_id>a584f3ab73e387d075f5fb125ab8b73e</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Equipment Request</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_db_object_a584f3ab73e387d075f5fb125ab8b73e</sys_update_name><sys_updated_by>Hilder.Ondigo</sys_updated_by><sys_updated_on>2026-10-02 03:48:44</sys_updated_on><update_access>false</update_access><user_role display_value="u_equipment_request_user" name="u_equipment_request_user">2aa6bfeb73e387d075f5fb125ab8b76e</user_role><ws_access>true</ws_access></sys_db_object></record_update>]]></payload>
+<payload_hash>-2093442674</payload_hash>
+<remote_update_set display_value="Equipment_Request_Application">7c56c4f7736787d075f5fb125ab8b7b4</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>Hilder.Ondigo</sys_created_by>
+<sys_created_on>2026-10-02 04:56:54</sys_created_on>
+<sys_id>fc56c4f7736787d075f5fb125ab8b7b6</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a0fabb673e0000001</sys_recorded_at>
+<sys_updated_by>Hilder.Ondigo</sys_updated_by>
+<sys_updated_on>2026-10-02 04:56:54</sys_updated_on>
+<table>u_equipment_request</table>
+<target_name>Equipment Request</target_name>
+<type>Table</type>
+<update_domain>global</update_domain>
+<update_guid>b3e6b7af5de387d06a8a7e238f9523a9</update_guid>
+<update_guid_history>b3e6b7af5de387d06a8a7e238f9523a9:-2093442674</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>
